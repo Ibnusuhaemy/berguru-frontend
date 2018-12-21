@@ -1,0 +1,426 @@
+
+/* utility */
+.no-mb {
+	margin-bottom: 0 !important; 
+}
+.mb-10 {
+	margin-bottom: 10px !important;
+}
+.mb-20 {
+	margin-bottom: 20px !important;
+}
+.mb-30 {
+	margin-bottom: 30px !important;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.login-layout {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+}
+.left-side-wrap {
+	position: relative;
+	width: 44.4%;
+	background: #123899;
+	padding-left: 170px;
+	padding-left: 11%;
+	padding-right: 40px;
+	padding-right: 2.7%;
+}
+.logo-header {
+	margin-top: 24px;
+	color: #fff;
+}
+.right-side-wrap {
+	padding-top: 30px;
+	width: 65.6%;
+	background: #fff;
+	padding-right: 170px;
+	padding-right: 11%;
+}
+
+
+
+
+.right-side-wrap .have-account > span{
+	font-family: AvenirNext, sans-serif;
+	font-size: 12px;
+  	font-weight: 500;
+  	color: #878787;
+  	margin-right: 15px;
+}
+.right-side-wrap .have-account a {
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #4a4a4a;
+	background: #fff;
+	border: 1px solid #c5c5c5;
+	border-radius: 4px;	
+	font-weight: 600;
+}
+.right-side-wrap .have-account a span {
+	margin-right: 5px;
+}
+.login-box {
+	padding-left: 6.25%;
+	padding-left: 0px;
+	margin-left: 90px;
+	margin-bottom: 130px;
+	margin-top: 135px;
+}
+.login-box h2 {
+	font-size: 32px;
+	line-height: normal;
+}
+
+.login-box p {
+	color: #4a4a4a;
+}
+.login-box .form-group {
+	margin-bottom: 20px;
+}
+.login-box form label {
+	text-transform: uppercase;
+	color: #4a4a4a;
+	font-size: 12px;
+}
+.login-box .form-control {
+	padding: 16px 19px;
+	height: auto;
+	font-size: 14px;
+	color: #878787;
+	border: 1px solid #c5c5c5;
+}
+.login-box span.pull-left,
+.login-box span.pull-right {
+	font-size: 14px;
+}
+.login-box .btn-login {
+	text-align: center;
+	padding: 14px 0;
+	font-weight: 600;
+	background: #8dc74a;
+	color: #fff;
+	font-size: 16px;
+}
+
+.right-side-wrap footer {
+	color: #000;
+	padding-left: 6.25%;
+	padding-left: 90px;
+}
+.right-side-wrap footer p {
+	font-size: 12px;
+	text-align: right;
+}
+.right-side-wrap footer ul {
+	padding-left: 0;
+}
+.right-side-wrap footer ul li {
+	list-style: none;
+	margin: 0 5px;
+	display: inline-block;
+}
+
+.right-side-wrap footer ul li:first-child {
+	margin-left: 0;
+}
+.right-side-wrap footer ul li:last-child {
+	margin-right: 0;
+}
+.right-side-wrap footer ul li a {
+	color: #000;
+	font-size: 13px;
+}
+
+
+.register-box {
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+.register-box h2 span {
+	font-weight: 700;
+	color: #123899;
+}
+.front-slider {
+	position: absolute;
+	bottom: 40px;
+	width: calc(100% - 220px);
+}
+.front-slider .quote {
+	font-weight: 300;
+  	font-size: 18px;
+  	font-style: italic;
+	margin-bottom: 40px;
+  	line-height: 30px;
+	width: 365px;
+	width: 100%;
+	margin-right: 0;
+	max-width: 365px;
+  	color: #ffffff;
+}
+.front-slider .author {
+	font-size: 18px;
+	color: #fff;
+  	font-weight: 600;
+  	margin-bottom: 0;
+}
+.front-slider .author-pos {
+	font-size: 16px;
+	color: #fff;
+}
+
+.front-slider .carousel-indicators {
+ 	left: initial;
+ 	right: -50px;
+ 	width: 100px;
+}
+
+.carousel-indicators .active {
+	width: 9px;
+	height: 9px;
+	transform: translateY(0px);
+	background: #d8d8d8;
+	opacity: 1;
+	margin: 0 7.5px;
+}
+.carousel-indicators li {
+	width: 9px;
+	height: 9px;
+	opacity: 0.5;
+	background: #d8d8d8;
+	margin: 0 7px;
+}
+
+.btn-regis {
+	margin-top: 220px;
+}
+
+.container-radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 213px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.student {
+	margin-left: auto;
+}
+.profesi-box {
+	position: relative;
+	height: 300px;
+}
+.word-or {
+	position: absolute;
+	font-size: 16px;
+	color: #4a4a4a;
+	left: 50%;
+	top: 35%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 193px;
+    width: 213px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    border: solid 1px #c5c5c5;
+}
+.checkmark img {
+	width: 50px;
+}
+.checkmark p {
+	font-size: 16px;
+	color: #123899;
+	color: #4a4a4a;
+	margin-top: 17px;
+}
+.check-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 10px;
+    padding: 2px 4px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #123899;
+    display: none;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radio:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+    background-color: #ffffff;
+    border: 1px solid #153b9a;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+}
+.container-radio input:checked ~ .check-icon {
+    display: block;
+}
+
+.container-radio input:checked ~ .checkmark p {
+	font-size: 16px;
+	color: #123899;
+	margin-top: 17px;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radio .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+
+/* @media 1200 */
+@media screen and (max-width: 1200px){
+	.left-side-wrap {
+		padding-left: 40px;
+	}
+	.right-side-wrap {
+		padding-right: 40px;
+	}
+	.front-slider {
+		width: calc(100% - 70px);
+	}
+	.front-slider .carousel-indicators {
+		right: 0px;
+	}
+	.register-box {
+		margin-left: 20px;
+	}
+	.right-side-wrap footer{
+		padding-left: 20px;
+	}
+	/* .checkmark {
+		padding-top: 20px;
+		height: 150px;
+		width: 170px;
+	} */
+	/* .word-or {
+		top: 25%;
+		left: 46%;
+	} */
+
+}
+
+@media screen and (max-width: 991.8px){
+	.right-side-wrap footer p {
+		text-align: left;
+	}
+	.checkmark {
+		height: 150px;
+		padding-top: 20px;
+		width: 170px;
+	}
+	.check-icon {
+		right: 60px;
+    	top: 20px;
+	}
+	.word-or {
+		top: 25%;
+		left: 45%;
+	}
+	.btn-regis {
+		margin-top: 170px;
+	}
+}
+
+@media screen and (max-width: 767.8px){
+	.left-side-wrap {
+		display: none;
+	}
+	.right-side-wrap {
+		width: 100%;
+	}
+	.login-box {
+		margin-left: 0;
+		padding-left: 30px;
+		margin-bottom: 20px;
+	}
+	.checkmark {
+		height: 150px;
+		padding-top: 20px;
+		width: 170px;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.login-box {
+		margin-left: 0;
+		padding-left: 30px;
+		margin-bottom: 20px;
+	}
+	.checkmark {
+		height: 150px;
+		padding-top: 20px;
+		width: 170px;
+	}
+	.profesi-box {
+		height: 400px;
+	}
+	.container-radio{
+		
+		left: 55%;
+		margin-left: 0;
+		transform: translateX(-50%);
+	}
+	.container-radio.student{
+		top: 200px;
+	}
+	.word-or {
+		top: 45%;
+		left: 50%;
+	}
+	.btn-regis {
+		margin-top: 360px;
+	}
+	.register-box {
+		margin-bottom: 70px;
+	}
+}

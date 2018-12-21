@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraLight-Regular.eot');
+    src: url('EffraLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EffraLight-Regular.woff2') format('woff2'),
+        url('EffraLight-Regular.woff') format('woff'),
+        url('EffraLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraHeavy-Italic.eot');
+    src: url('EffraHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EffraHeavy-Italic.woff2') format('woff2'),
+        url('EffraHeavy-Italic.woff') format('woff'),
+        url('EffraHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraHeavy-Regular.eot');
+    src: url('EffraHeavy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EffraHeavy-Regular.woff2') format('woff2'),
+        url('EffraHeavy-Regular.woff') format('woff'),
+        url('EffraHeavy-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Regular.eot');
+    src: url('Effra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Regular.woff2') format('woff2'),
+        url('Effra-Regular.woff') format('woff'),
+        url('Effra-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Bold.eot');
+    src: url('AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('AvenirNextLTPro-Bold.woff') format('woff'),
+        url('AvenirNextLTPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi';
+    src: url('AvenirNextLTPro-Demi.eot');
+    src: url('AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNextLTPro-Demi.woff2') format('woff2'),
+        url('AvenirNextLTPro-Demi.woff') format('woff'),
+        url('AvenirNextLTPro-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Regular.eot');
+    src: url('AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('AvenirNextLTPro-Regular.woff') format('woff'),
+        url('AvenirNextLTPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Medium.eot');
+    src: url('AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNextLTPro-Medium.woff2') format('woff2'),
+        url('AvenirNextLTPro-Medium.woff') format('woff'),
+        url('AvenirNextLTPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

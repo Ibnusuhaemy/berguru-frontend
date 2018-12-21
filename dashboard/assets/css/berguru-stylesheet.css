@@ -1,0 +1,1976 @@
+body{
+  font-family: 'Avenir Next LT Pro';
+  color: #000;
+  font-weight: normal;
+}
+.navbar-header .navbar-brand{
+  background-color: #123899;
+  font-family: 'effra';
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  float: none;
+}
+.navbar-header .left-header{
+  background-color: #123899;
+
+}
+.navbar-custom{
+  background-color: #122c70;
+}
+.navbar-right .dropdown{
+  background-color: transparent;
+}
+.dropdown.user-menu a.dropdown-toggle{
+  width: auto;
+  height: 100%;
+  padding-left: 28px;
+  font-weight: 900;
+  padding-top: 13px;
+}
+.user-menu{
+  border-left: 1px solid #123899;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 60px;
+  border-radius: 0;
+}
+.user-photo{
+  border-radius: 50%;
+}
+.user-photo img,
+.dropdown.user-menu .user-photo img{
+  width: 100%;
+  height: 100%;
+}
+.dropdown.user-menu .user-name{
+  display: inline-block;
+  font-family: 'Avenir Next LT Pro Demi';
+
+}
+.dropdown.user-menu .user-photo{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius:50%;
+  margin-left: 5px;
+}
+.media .user-photo{
+  width: 49px;
+  height: 49px;
+  border-radius:50%;
+  display: inline-block;
+}
+.dropdown .label{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 7px 0 0;
+  text-align: center;
+}
+.nav-breadcrumb{
+  display: inline-block;
+  /* float: left; */
+  margin-left: 20px;
+  font-family: 'Avenir Next LT Pro Demi';
+
+}
+.nav-breadcrumb .breadcrumb{
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 19px;
+  font-size: 14px;
+}
+.nav-breadcrumb .breadcrumb a{
+  color: #fff;
+}
+.nav-breadcrumb .breadcrumb>.active{
+  color: #b7b7b7;
+}
+.dropdown-messages img{
+  width: 40px;
+  height: 40px;
+}
+.profile-sidebar{
+  text-align: center;
+  padding: 40px 0 20px;
+}
+.profile-option{
+  position: absolute;
+  top:30px;right: 25px;
+  color: #000;
+  font-size: 16px;
+}
+.profile-userpic{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+.profile-userpic img{
+  width: 100%;
+  height: 100%;
+  float: none;
+  margin: 0;
+}
+.profile-usertitle{
+  float: none;
+  text-align: center;
+  margin: 5px;
+
+  font-family: 'Avenir Next LT Pro Demi';
+}
+.profile-usertitle-name{
+  font-size: 16px;
+  font-weight: bold;
+}
+.profile-usertitle-status{
+  text-transform: lowercase;
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 500;
+}
+.btn-hakakses{
+  color: #2a9650;
+  width: 136px;
+  height: 29px;
+  border-radius: 14.5px;
+  background-color: rgba(42, 150, 80, 0.1);
+  padding: 6px 0 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'Avenir Next LT Pro Demi';
+  padding: 6.5px 15px;
+  display: inline-block;
+}
+.btn-hakakses:hover,
+.btn-hakakses:focus{
+  color: #2a9650;
+
+}
+
+.sidebar ul.nav .active >a,
+.sidebar ul.nav .active > a:hover,
+.sidebar ul.nav .active > a:focus,
+.sidebar ul.nav li.parent.active >a,
+.sidebar ul.nav li.parent.active >a:hover,
+.sidebar ul.nav li.parent.active >a:focus,
+.sidebar ul.nav li.parent >a.active,
+.sidebar ul.nav li.parent >a.active:hover,
+.sidebar ul.nav li.parent >a.active:focus{
+  color: #4056f6;
+  background-color: #ffffff;
+  border-left: 4px solid #4056f6;
+
+}
+.sidebar ul.nav a:hover{
+  color: #4056f6;
+  background-color: #ffffff;
+  border-left: 4px solid #4056f6;
+}
+.sidebar ul.nav li.parent ul li a{
+  padding-top: 0;
+  background-color: #fff;
+  padding-left: 40px;
+  font-size: 13px;
+
+}
+.sidebar ul.nav li.parent ul li a:hover,
+.sidebar ul.nav li.parent ul li a:focus,
+.sidebar ul.nav li.parent ul li a.active,
+.sidebar ul.nav li.parent ul li a.active:hover,
+.sidebar ul.nav li.parent ul li a.active:focus{
+  color: #4056f6;
+  background-color: #fff;
+  font-family: 'Avenir Next LT Pro Demi';
+}
+.sidebar ul.nav li.parent a,
+.sidebar ul.nav li a{
+  border-left: 4px solid #fff;
+  padding-top: 14px;
+
+}
+.sidebar ul.nav > li> a{
+  font-family: 'Avenir Next LT Pro Demi';
+  font-size: 14px;
+
+}
+.sidebar ul.nav > li> a .badge{
+  float: right;
+  background-color: rgba(219, 89, 89, 0.1);
+  color: #db5959;
+  margin-top: 4px;
+}
+
+.side-credit{
+  margin: 20px 0 10px 20px;
+}
+.side-credit p{
+  width: 116px;
+  display: inline-block;
+  border-top: 1px solid #ececec;
+  padding: 15px 0;
+  color: #000;
+  font-size: 12px;
+}
+/* main content */
+.main-container{
+  margin: 40px 20px;
+}
+.main-rightbar{
+  margin-top: 40px;
+}
+.main-container.mr-0{
+  margin-right: 0;
+}
+.main-rightbar .panel-separated-heading{
+  background-color: #db5959;
+  font-size: 14px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 5px;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.main-rightbar .panel-separated-heading:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #e7ebf4;
+  bottom: -30px;
+}
+
+/* panel */
+.panel-plain .panel-heading{
+  line-height: 20px;
+  padding: 25px;
+  /* margin-bottom: 30px; */
+  height: auto;
+}
+.panel-plain .panel-nav{
+  padding: 25px 25px 0;
+  font-size: 16px;
+  font-family: 'Avenir Next LT Pro Demi';
+
+}
+.panel-plain .panel-nav .panel-link{
+  color: #000;
+  text-decoration: none;
+}
+.panel-plain .panel-body{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.panel-plain .panel-heading h1{
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+.panel-plain .panel-heading p{
+  color: #878787;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+/* input */
+
+input.form-control {
+  border: 1px solid #c5c5c5;
+  /* box-shadow: none; */
+  height: 40px;
+}
+.form-control{
+  height: 40px;
+  color: #000;
+  font-weight: 500;
+}
+.input-55 .form-control{
+  height: 55px;
+}
+.input-55 textarea,
+.input-55 textarea.form-control{
+  height: 159px;
+}
+textarea,
+textarea.form-control{
+  height: auto;
+  box-shadow: none;
+}
+.input-group input.form-control{
+  border-right: 0;
+}
+.input-group-btn .btn,
+.input-group-addon{
+  color: #878787;
+  height: 40px;
+  background-color: #fff;
+  border-left: none;
+  border-top-color: #c5c5c5;
+  border-right-color: #c5c5c5;
+  border-bottom-color: #c5c5c5;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+select.form-control{
+  box-shadow: none;
+  appearance:none;
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  background-image: url("../images/arrow-down-black.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 10px;
+}
+label{
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 12px;
+  color: #4a4a4a;
+  font-family: 'Avenir Next LT Pro Demi';
+}
+.input-file{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.input-55 label.input-label {
+  height: 55px;
+  padding-top: 20px;
+}
+label.input-label {
+  color: #878787;
+  background-color: #fff;
+  cursor: pointer; /* "hand" cursor */
+  display: block;
+  height: 40px;
+  text-transform: none;
+  padding: 12px 15px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  /* text-align: right; */
+  position: relative;
+  margin: 0;
+}
+label.input-label.only-btn {
+  padding: 0;
+  border: none;
+  width: auto;
+  height: auto;
+}
+
+.input-55 label.input-label >span.tombol{
+  right: 8px;
+  top: 8px;
+}
+.input-55 label.input-label.only-btn >span.tombol{
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+  right: 0;
+}
+
+label.input-label >span.tombol{
+  color: #d75a56;
+  padding: 7px 8px;
+  border: 1px solid #d75a56;
+  border-radius: 4px;
+  font-size: 14px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.input-file:focus + label.input-label,
+.input-file + label.input-label:hover {
+  background-color: #fff;
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.input-file:focus + label.input-label.only-btn,
+.input-file + label.input-label.only-btn:hover {
+  outline: none;
+}
+.inputfile + label.input-label * {
+  pointer-events: none;
+}
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.styled-checkbox + label:before {
+  content: '';
+  /* margin-right: 10px; */
+  display: inline-block;
+  /* vertical-align: middle; */
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #c5c5c5;
+  border-radius: 4.8px;
+}
+.styled-checkbox:hover + label:before {
+  background: #8dc74a;
+}
+.styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.styled-checkbox:checked + label:before {
+  background: #8dc74a;
+}
+.styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.styled-checkbox:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.form-separator{
+  height: 1px;
+  width: 100%;
+  background-color: #ececec;
+  margin: 15px 0;
+}
+/* msc */
+.plain-group .input-group-btn,
+.plain-group .input-group-btn .btn,
+.plain-group .input-group-btn .btn:hover,
+.plain-group .input-group-btn .btn:focus,
+.plain-group .input-group-addon{
+  color: #4a4a4a;
+}
+.text-red{
+  color: #db5959;
+}
+.text-blue{
+  color: #456ecb;
+}
+.text-status{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dot-status{
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: -1px;
+}
+.dot-red{
+  background-color: #db5959;
+}
+.dot-blue{
+  background-color: #456ecb;
+}
+.dot-green{
+  background-color: #2a9650;
+}
+.dropdown.td-menu{
+  margin: 0;
+  float: right;
+}
+.dropdown.td-menu a.dropdown-toggle{
+  color: #c5c5c5;
+  padding: 0 0 0 10px;
+  font-size: 18px;
+}
+.td-menu{
+  text-transform: none;
+}
+.table>tbody>tr>td.td-right{
+  text-align: right;
+}
+.td-menu .dropdown-menu li a:hover{
+  color: #456ecb;
+}
+.td-meta{
+  margin: 20px 10px 5px 0;
+  color: #878787;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 325px;
+}
+.td-meta span{
+  display: inline-block;
+  /* white-space:nowrap; */
+}
+.td-meta .fa-circle{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 6px;
+  color: #4a4a4a;
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.td-meta .fa-circle:before{
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+.td-meta .btn{
+  margin-left: 10px;
+}
+.table > thead th > .fa{
+  font-size: 20px;
+}
+.table.mid-v>tbody>tr>td{
+  vertical-align: middle;
+}
+.table.no-head>tbody>tr:first-child>td{
+  border-top: none;
+}
+.dataTables_wrapper table.no-head thead{
+  display:none;
+}
+.materi-ikon{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 2px;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.materi-red{
+  background-color: rgba(219, 89, 89, 0.1);
+  color: #db5959;
+}
+.materi-blue{
+  background-color: #e7ebf4;
+  color: #456ecb;
+}
+.materi-green{
+  background-color: rgba(42, 150, 80, 0.1);
+  color: #2a9650;
+}
+.materi-black{
+  background-color: rgba(74, 74, 74, 0.1);
+  color: #4a4a4a;
+}
+.saklar{
+  height: 30px;
+  width: 60px;
+  /* position: relative; */
+  margin-top: -5px;
+}
+.saklar-switch{
+  display: none;
+}
+.saklar-switch +label:before{
+  content: ' ';
+  display: block;
+  height: 30px;
+  width: 60px;
+  border: 1px solid #e7ebf4;
+  border-radius: 14.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e7ebf4;
+  transition: all 0.3s ease-in;
+}
+.saklar-switch +label:after{
+  content: ' ';
+  display: block;
+  height: 22px;
+  width: 22px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: #fff;
+  transition: all 0.3s ease-in;
+}
+.saklar-switch + label{
+  position: relative;
+  height: 30px;
+  width: 60px;
+  margin: 0;
+}
+.saklar-switch:checked + label:after{
+  left: 34px;
+  transition: all 0.3s ease-in;
+}
+.saklar-switch:checked +label:before{
+  background: #8dc74a;
+  transition: all 0.3s ease-in;
+}
+.media.mid-v .media-body{
+  vertical-align: middle;
+}
+td > .media{
+  width: 180px;
+}
+.td-pesan{
+  max-width: 675px;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.achie{
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0 0;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+.achie-red{
+  background-color: #db5959;
+}
+.achie-blue{
+  background-color: #396ef4;
+}
+.achie-green{
+  background-color: #8dc74a;
+}
+.achie-black{
+  background-color: #4a4a4a;
+}
+.achie-orange{
+  background-color: #f5a623;
+}
+.text-muted{
+  color: #878787;
+}
+.img-fw{
+  width: 100%;
+}
+.wh-90{
+  width: 90px!important;
+  height: 90px!important;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.profil-edit-foto .btn[type="submit"]{
+  margin-top: 15px;
+}
+.help-block{
+  font-weight: 500;
+  color: #878787;
+}
+a:hover,
+a:focus,
+a:active,
+.dropdown li a:hover{
+  color: #153b9a;
+}
+/* table */
+.table{
+  margin-bottom: 0;
+}
+.table>tbody>tr>td,
+.table>tfoot>tr>td,
+.table>thead>tr>td{
+  padding: 24px 15px 18px;
+  font-weight: 500;
+}
+.table>tbody>tr.pesan-read>td{
+  /* font-weight: normal; */
+  color: #4a4a4a;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th{
+  padding: 7px 15px 7px;
+  background-color: #e7ebf4;
+  font-weight: 500;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  border-color: #ececec;
+}
+.table>thead>tr>th:first-child{
+  border-top-left-radius: 5px;
+}
+.table>thead>tr>th:last-child{
+  border-top-right-radius: 5px;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after{
+  bottom: 27px;
+  /* right: 30px; */
+  right: 10px;
+  width: 10px;
+  height: 12px;
+  opacity: 1;
+  /* position: unset; */
+  position: absolute;
+  /* display: inline-block; */
+  /* margin-left: 8px; */
+}
+table.dataTable.dt-hidesorting thead .sorting:after,
+table.dataTable.dt-hidesorting thead .sorting_asc:after,
+table.dataTable.dt-hidesorting thead .sorting_desc:after,
+table.dataTable.dt-hidesorting thead .sorting_asc_disabled:after,
+table.dataTable.dt-hidesorting thead .sorting_desc_disabled:after{
+  display: none;
+}
+table.dataTable thead th.sorting:after {
+  content: "";
+  background: url('../images/arrow-option-black.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+table.dataTable thead th.sorting_asc:after {
+  content: "";
+  background: url('../images/arrow-down-black.png');
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  background-size: 8px auto;
+}
+table.dataTable thead th.sorting_desc:after {
+  content: "";
+  background: url('../images/arrow-up-black.png');
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  background-size: 8px auto;
+}
+/* button */
+.btn{
+  height: 29px;
+  padding: 3px 15px;
+  border-radius: 14.5px;
+  font-weight: bold;
+  font-family: 'Avenir Next LT Pro Demi';
+
+}
+.btn.btn-normal{
+  height: 40px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  min-width: 90px;
+}
+.btn.btn-55{
+  height: 55px;
+  border-radius: 4px;
+  padding: 16px 12px;
+  min-width: 90px;
+}
+.btn.btn-ikon{
+  height: 40px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  min-width: auto;
+}
+.btn-default{
+  color: #878787;
+  background-color: #e7ebf4;
+}
+.btn-success{
+  background-color: #8dc74a;
+}
+.btn-custom{
+  height: 29px;
+  padding: 6.5px 15px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 14.5px;
+}
+.btn-pesan-label{
+  height: 29px;
+  padding: 6.5px 15px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #000;
+}
+.btn-status-green{
+  background-color: rgba(42, 150, 80, 0.1);
+  color: #2a9650;
+}
+.btn-status-blue{
+  background-color: #e7ebf4;
+  color: #456ecb;
+}
+.btn-status-black{
+  background-color: rgba(74, 74, 74, 0.1);
+  color: #4a4a4a;
+}
+.btn-status-red{
+  color: #db5959;
+  background-color: rgba(219, 89, 89, 0.1);
+}
+.btn-plonk-green{
+  color: #8dc74a;
+  background-color: #fff;
+  border: 1px solid #8dc74a;
+}
+.btn-plonk-blue{
+  color: #123899;
+  background-color: #fff;
+  border: 1px solid #153b9a;
+}
+.btn-plonk-red{
+  color: #db5959;
+  background-color: #fff;
+  border: 1px solid #d75a56;
+}
+.btn-status-green.active,
+.btn-status-green:hover,
+.btn-status-green:focus{
+  color: #2a9650;
+  background-color: rgba(42, 150, 80, 0.1);
+}
+.btn-status-red.active,
+.btn-status-red:hover,
+.btn-status-red:focus{
+  color: #db5959;
+  background-color: rgba(219, 89, 89, 0.1);
+}
+.btn-status-blue.active,
+.btn-status-blue:hover,
+.btn-status-blue:focus{
+  background-color: #e7ebf4;
+  color: #456ecb;
+}
+.btn-status-black.active,
+.btn-status-black:hover,
+.btn-status-black:focus{
+  background-color: rgba(74, 74, 74, 0.1);
+  color: #4a4a4a;
+}
+.btn-plonk-green.active,
+.btn-plonk-green:hover,
+.btn-plonk-green:focus{
+  color: #8dc74a;
+  background-color: #efefef;
+  border: 1px solid #8dc74a;
+}
+.btn-plonk-blue.active,
+.btn-plonk-blue:hover,
+.btn-plonk-blue:focus{
+  color: #123899;
+  background-color: #efefef;
+  border: 1px solid #153b9a;
+}
+.btn-plonk-red.active,
+.btn-plonk-red:hover,
+.btn-plonk-red:focus{
+  color: #db5959;
+  background-color: #efefef;
+  border: 1px solid #d75a56;
+}
+.btn-blue{
+  color: #fff;
+  background-color: #123899;
+  border: 1px solid #153b9a;
+}
+.btn-red{
+  color: #fff;
+  background-color: #db5959;
+  border: 1px solid #d75a56;
+}
+.btn-blue.active,
+.btn-blue:hover,
+.btn-blue:focus{
+  color: #fff;
+  background-color: #123899;
+  border: 1px solid #153b9a;
+}
+.btn-red.active,
+.btn-red:hover,
+.btn-red:focus{
+  color: #fff;
+  background-color: #db5959;
+  border: 1px solid #d75a56;
+}
+.dt-category .btn{
+  background-color: #fff;
+  border-color: #c5c5c5;
+  color: #000;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.dt-category .btn.active{
+  color: #fff;
+  background-color: #153b9a;
+  border-color: #153b9a;
+
+}
+/* .dt-category .btn:hover,
+.dt-category .btn:focus{
+
+} */
+
+/* pagination */
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{
+  background-color: #E7EBF4;
+  color: #000;
+  border-color: #cacaca;
+}
+.pagination>li>a,
+.pagination>li>span{
+  color: #122C70;
+}
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover{
+  border-color: #ececec;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover{
+  color: #000;;
+}
+/* modal */
+/* .modal-content{
+
+} */
+.modal-header{
+  border-bottom: none;
+  padding: 30px 30px 15px;
+}
+.modal-body{
+  padding: 15px 30px;
+}
+.modal-footer{
+  border-color: #ececec;
+  padding: 30px 0;
+  margin: 0 30px;
+}
+.modal-title{
+  font-size: 24px;
+  font-weight: 500;
+}
+.modal-subtitle{
+  margin: 0;
+  color: #878787;
+  font-weight: 500;
+}
+
+/* profil */
+.profile-data{
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ececec;
+}
+.profile-pic{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.profile-pic img{
+  width: 100%;
+  height:100%;
+}
+/* .profile-meta{
+
+} */
+.profile-name{
+  font-family: 'Avenir Next LT Pro Demi';
+  font-size: 18px;
+  margin-top: 10px;
+}
+.profile-email{
+  color: #878787;
+  font-weight: 500;
+}
+.profile-phone{
+  color: #878787;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.profile-dm-number{
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.profile-dm-number table{
+  width: 100%;
+}
+.profile-dm-number table tr th{
+  font-family: 'Avenir Next LT Pro Demi';
+  padding: 5px 0;
+  vertical-align: middle;
+}
+.profile-dm-number table tr td{
+  color: #878787;
+  font-weight: 500;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+.profile-achievement{
+  text-align: right;
+}
+.profile-point{
+  height: 29px;
+  border-radius: 14.5px;
+  background-color: rgba(221, 162, 4, 0.1);
+  padding: 5px 15px;
+  text-align: center;
+  color: #dda204;
+  margin-bottom: 15px;
+  width: auto;
+  font-family: 'Avenir Next LT Pro Demi';
+  display: inline-block;
+  margin-right: -8px;
+}
+.profile-point span{
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #dda204;
+  color: #fff;
+}
+.circle{
+  width: 25px;
+  height:  25px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 4px 0;
+  text-align: center;
+}
+.circle-green{
+  background-color: #e9f4ed;
+  color: #2a9650;
+}
+.profil-pertanyaan:first-child{
+  margin-top: 0;
+}
+.profil-pertanyaan:last-child{
+  border-bottom: none;
+}
+.profil-pertanyaan{
+  border-bottom: 2px solid #ececec;
+  margin-top: 20px;
+}
+.profil-pertanyaan .p-pertanyaan{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+.profil-pertanyaan .p-jawaban{
+  padding: 30px 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4a4a4a;
+
+}
+.p-jawaban .media-left{
+  line-height: 24px;
+  border-right: 2px solid #f7f7f7;
+  padding-right: 30px;
+}
+.p-jawaban .media-left .user-nama{
+  width: 100px;
+
+}
+.p-jawaban .media-body{
+  line-height: 24px;
+  padding-left: 30px;
+
+}
+.p-jawaban .media-body .small{
+  color: #878787;
+  font-size: 12px;
+}
+.p-jawaban .user-photo{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+/* pesan */
+.panel-pleft .panel-body.list-pesan{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.pi-left{
+  margin-left: 0;
+}
+/* .panel-pesan{
+
+}
+.panel-pesan > .row{
+
+}
+.panel-pleft{
+
+}
+.panel-pright{
+
+} */
+.panel-pleft .panel-heading h1{
+  margin-bottom: 15px;
+}
+.panel-pleft .panel-body.list-pesan{
+  padding-top: 0;
+  padding-bottom: 0;
+  height:calc(100% - 165px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.pesan-item{
+  font-family: 'Avenir Next LT Pro Demi';
+  border-bottom: 1px solid #ececec;
+  width: 94%;
+  height: 76px;
+  clear: both;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px 5px;
+}
+.pesan-item:last-child{
+  border-bottom: none;
+}
+.pesan-item.pi-read{
+  color: #878787;
+}
+.pesan-item.pi-read .user-nama{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 500;
+}
+.pesan-item.pi-read .badge,
+.pesan-item.pi-selected .badge{
+  opacity: 0;
+}
+.pesan-item.pi-selected{
+  color: #fff;
+  background-color: #4056f6;
+  border-bottom-color: #fff;
+  width: 97%;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+.pesan-item .user-photo{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 10px;margin-bottom: 10px;
+}
+.pesan-item .user-nama{
+  display: inline-block;
+
+}
+.pesan-item .last-pesan{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.pi-left{
+  width: 86%;
+  float: left;
+}
+.pi-right{
+  width: 14%;
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+}
+.pi-right .time{
+  display: block;
+  margin-bottom: 10px;
+  color: #c5c5c5;
+}
+.pi-right .badge{
+  background-color: rgba(219, 89, 89, 0.1);
+  color: #db5959;
+  margin-right: -3px;
+}
+.panel-body.detail-pesan-empty{
+  padding-top: 22vh;
+}
+.detail-pesan-empty{
+  text-align: center;
+}
+.detail-pesan-empty img{
+  width: 176px;
+  height: 176px;
+}
+.empty-msg{
+  font-weight: 500;
+  font-size: 16px;
+}
+.panel-body.detail-pesan{
+  padding: 50px 25px 25px;
+  font-weight: 500;
+
+}
+.detpes-header{
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 20px;
+}
+.detpes-header .user-nama{
+  font-size: 18px;
+
+}
+.detpes-header .user-email{
+  color:#878787;
+}
+.detpes-menu{
+  display: inline-block;
+  float: none;
+  margin-top: 0;
+}
+.dropdown.detpes-menu a.dropdown-toggle{
+  color: #c5c5c5;
+  font-size: 20px;
+}
+.detpes-header .profile-achievement{
+  display: inline-block;
+}
+.detpes-masalah h4{
+  color: #878787;
+  font-size: 14px;
+  margin: 0 0 5px;
+  font-weight: 500;
+}
+.detpes-masalah{
+  font-size: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 15px;
+}
+.detpes-chats{
+  padding-bottom: 10px;
+}
+.dchat-htime{
+  text-align: center;
+  color: #878787;
+  margin-bottom: 15px;
+}
+.dchat{
+  padding: 15px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.detpes-top .mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,
+.detpes-top .mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical{
+  right: -15px;
+}
+.dchat-keluar{
+  border: 1px solid #ececec;
+  margin-right: 40%;
+}
+.dchat-masuk{
+  background-color: #f7f7f7;
+  color: #4a4a4a;
+  margin-left: 40%;
+}
+.detpes-write{
+  position: absolute;
+  left: 25px;right: 25px;bottom: 10px;
+  padding-top: 5px;
+  background-color: #ffffff;
+}
+.detpes-write input.form-control{
+  border-color: #dddddd;
+  height: 53px;
+}
+
+.detpes-write .input-group-btn,
+.detpes-write .input-group-addon{
+  border-left: none;
+  border-top: 1px solid  #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  height: 53px;
+  background-color: #ffffff;
+}
+
+.detpes-write .input-group-btn .btn{
+  color: #ffffff;
+  height: 29px;
+  background-color: #8dc74a;
+  border-radius: 4px;
+}
+.detpes-write .help-block{
+  color: #878787;
+  font-size: 12px;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 17px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.detpes-top{
+  height: calc(100vh - 293px);
+  overflow-x: auto;
+}
+.dchat-footer{
+  margin-top: 10px;
+}
+.dchat-footer .btn{
+  height: 25px;
+  font-size: 10px;
+  padding: 5px 8px;
+  margin-top: 5px;
+}
+.dchat-footer .text-right{
+  color: #878787;
+  padding-top: 15px;
+  font-size: 12px;
+
+}
+.dchat-footer .text-right a{
+  color: #878787;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.rate-result,
+.rate-input{
+  display: inline-block;
+}
+.rate-terbilang,
+.rate-terbilang{
+  color: #f5a623;
+  font-size: 11px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.rate-result font,
+.rate-input font{
+  font-size: 14px;
+  color: #f5a623;
+}
+.detpes-status{
+  font-size: 11px;
+}
+
+/* pertanyaan */
+.detper-pertanyaan{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 15px 0;
+}
+.detper-jawaban-heading{
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+.detper-jawaban-heading .row > div + div{
+  text-align: right;
+}
+.detper-jawaban-heading .row > div:first-child {
+  font-family: 'Avenir Next LT Pro Demi';
+}
+
+.detper-jawaban-heading .row > div:first-child .fa{
+  color: #2a9650;
+  margin-right: 10px;
+}
+
+.detper-jawaban-heading .user-photo,
+.ci-footer .user-photo{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.detper-jawaban-heading .user-more,
+.ci-footer .user-more{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #e7ebf4;
+  color: #123899;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.detper-jawaban-footer .user-photo{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.detper-jawaban-footer .user-nama{
+  display: inline-block;
+}
+.detper-jawaban-list{
+  font-weight: 500;
+
+}
+.detper-jawaban-item{
+  border-bottom: 1px solid #ececec;
+  padding: 20px 0;
+}
+.detper-jawaban-item:last-child{
+  border-bottom: none;
+}
+.detper-jawaban{
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+.detper-jawaban-heading .text-muted,
+.detper-jawaban-list .text-muted{
+  font-size: 12px;
+  margin-right: 10px;
+}
+.detper-jawaban-footer .btn{
+  text-transform: none;
+}
+.detper-jawaban-footer .rate-input{
+  margin-right: 10px;
+}
+
+/* materi */
+.content-filter-top{
+  margin-bottom: 10px;
+}
+.big-filter{
+  height: 35px;
+  width: 100%;
+}
+.content-filter-top p{
+  font-weight: 500;
+}
+
+.content-filter-top .dropdown{
+  margin: 0;
+}
+.content-filter-top .dropdown > a{
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+.content-filter-top .dropdown > a> .fa{
+  font-size: 18px;
+}
+.content-filter-search{
+  margin-bottom: 20px;
+}
+.content-filter-search .input-group .input-group-addon,
+.content-filter-search .input-group .form-control{
+  border: none;
+}
+.content-filter-search .input-group .input-group-addon{
+  padding-left: 20px;
+}
+.content-filter-search .input-group{
+  margin-bottom: 10px;
+}
+.content-filter-search .input-group .form-control:focus{
+  box-shadow: none;
+}
+.content-filter-search .input-group .input-group-addon .fa{
+  font-size: 16px;
+}
+.atau{
+  font-weight: 500;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.content-filter-bottom{
+  margin-bottom: 10px;
+}
+.content-filter-bottom h4{
+  font-weight: 500;
+  font-size: 16px;
+}
+.content-filter-bottom .dropdown{
+  float: none;
+  display: inline-block;
+}
+.content-filter-bottom .dropdown > a{
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+.content-filter-bottom .dropdown > a .fa{
+  font-size: 10px;
+}
+.content-item .panel-body{
+  padding-top: 25px;
+}
+.ci-title{
+  font-size: 18px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000;
+}
+.ci-title.mh-56{
+  min-height: 56px;
+}
+.content-item .td-meta{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.content-item div.btn{
+  /* text-transform: uppercase; */
+  font-size: 12px;
+  padding-top: 5px;
+}
+.content-tag{
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.content-tag a{
+  color: #123899;
+}
+.content-tag .text-muted{
+  margin-right: 10px;
+}
+.ci-right{
+  text-align: right;
+}
+.content-item:hover{
+  box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+}
+.ci-lokasi,
+.ci-instansi{
+  color: #878787;
+  font-weight: 500;
+}
+.ci-instansi{
+  margin-top: 5px;
+  font-size: 18px;
+}
+.ci-lokasi{
+  font-size: 16px;
+}
+.ci-lokasi + .btn{
+  margin-top: 30px;
+}
+
+/* dashboard */
+.content-filter-cat{
+  /* height: 156px; */
+  margin: -10px -25px 0;
+  overflow: hidden;
+  width: calc(100% + 50px);
+}
+.cfc-list{
+  width: 107%;
+  /* height: 150px; */
+  padding: 25px;
+  overflow: hidden;
+}
+.cfc-item{
+  /* display: inline-block; */
+  text-align: center;
+  margin-right: 20px;
+  float: left;
+  width: 114px;
+  height: 96px;
+  margin-bottom: 20px;
+}
+.cfc-item:hover,
+.cfc-item.active{
+  cursor: pointer;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.cfc-item:hover .fa,
+.cfc-item.active .fa,
+.cfc-item:hover h3,
+.cfc-item.active h3{
+  color: #153b9a;
+}
+.cfc-item:hover .panel,
+.cfc-item.active .panel{
+  border:1px solid #153b9a;
+}
+
+.cfc-item h3{
+  margin: 0;
+  font-size: 12px;
+  font-family: 'Avenir Next LT Pro Demi';
+  color: #000;
+  max-height: 27px;
+  overflow: hidden;
+}
+.cfc-item .fa{
+  font-size: 20px;
+  color: #878787;
+  margin-bottom: 10px;
+}
+.cfc-item .panel{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+}
+.cfc-item .panel .panel-body{
+  padding: 25px 15px 20px;
+}
+.ci-footer{
+  font-weight: 500;
+  margin-top: 25px;
+}
+.ci-footer .text-muted{
+  font-size: 12px;
+}
+.ci-heading{
+  font-weight: 500;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.ci-heading .user-photo{
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-right: 15px;
+}
+.ci-heading .user-nama{
+  float: left;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.ci-heading .user-last-online{
+  color: #878787;
+  font-size: 12px;
+
+}
+.ci-angka{
+  width: 55px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+}
+.ci-angka .number{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.ci-angka .text{
+  font-size: 12px;
+  color: #878787;
+}
+.ci-heading .user-nama + .btn{
+  margin-top: 8px;
+  float: left;
+}
+.ci-heading .angka-container{
+  text-align: right;
+  padding-left: 0;
+}
+/* rightbar */
+.rightbar .profile-point{
+float: left;
+margin-bottom: 5px;
+}
+.rightbar .profile-achievement{
+  /* float: left; */
+  width: 100%;
+}
+.rightbar h3{
+  margin: 0 0 20px;
+  font-weight: 500;
+  color: #000;
+  font-size: 14px;
+}
+.rightbar .panel-loker,
+.rightbar .panel-materi{
+  margin-bottom: 40px;
+}
+.rightbar .panel-heading{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.panel-loker .panel-heading{
+  background: #396ef4;
+  color: #fff;
+}
+.panel-materi .panel-heading{
+  position: relative;
+}
+.rightbar .panel-body{
+  position: relative;
+}
+.loker-list,
+.materi-list{
+  list-style: none;
+  padding-left: 0;
+}
+.loker-list li a{
+  margin-bottom: 10px;
+}
+.loker-list li a,
+.materi-list li a{
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+.loker-list{
+  font-family: 'Avenir Next LT Pro Demi';
+
+}
+.loker-list li a:hover,
+.loker-list li a:focus,
+.loker-list li a:active,
+.materi-list li a:hover,
+.materi-list li a:focus,
+.materi-list li a:active{
+  color: #153b9a;
+}
+.loker-list .meta{
+  color: #878787;
+  font-size: 13px;
+}
+.loker-list .meta .lokasi{
+  font-style: italic;
+}
+.loker-list li{
+  padding: 10px 0 5px;
+  margin: 10px 0;
+  border-top: 2px solid #ececec;
+}
+.loker-list li:first-child{
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.loker-list li:last-child{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.rightbar .btn-more{
+  margin-bottom: -65px;
+  background-color: #fcfcfc;
+}
+.list-more{
+  text-align: center;
+}
+.materi-list li{
+  min-height: 50px;
+  margin-bottom: 5px;
+}
+.materi-list li .title{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 2px;
+  font-family: 'Avenir Next LT Pro Demi';
+}
+.materi-list .meta{
+  font-size: 12px;
+  font-weight: 500;
+}
+.materi-list .meta .author{
+  margin-right: 10px;
+}
+.materi-list .meta .downloaded{
+  color: #878787;
+}
+.materi-list .materi-ikon{
+  float: left;
+}
+.panel-materi .panel-heading .dropdown{
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 55px;
+}
+.panel-materi .panel-heading .dropdown > a{
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+.panel-materi .panel-heading .dropdown > a > .fa{
+  font-size: 10px;
+}
+
+
+/* responsive */
+
+@media (min-width: 768px){
+  .panel-pesan{
+    height: 79vh;
+  }
+
+  .panel-pesan > .row{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .panel-pleft{
+    border-right: 1px solid #ececec;
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .panel-pright{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .panel-body.detail-pesan-empty{
+    padding-right: 0;
+  }
+}
+@media (min-width: 1200px){
+
+}
+@media (max-width: 1024px){
+  .dchat-keluar{
+    margin-right: 25%;
+  }
+  .dchat-masuk{
+    margin-left: 25%;
+  }
+}
+@media (max-width: 768px){
+  .dchat-keluar{
+    margin-right: 8%;
+  }
+  .dchat-masuk{
+    margin-left: 8%;
+  }
+  .ci-lokasi + .btn{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px){
+  .navbar-custom{
+    height: auto;
+  }
+  .navbar-toggle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+  body{
+    padding-top: 120px;
+  }
+  .user-name{
+    max-width: 95px;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: -7px;
+  }
+  .main-container.mr-0{
+    margin-right: 20px;
+  }
+  .main-rightbar{
+    margin: 0 20px;
+  }
+  .panel-pright{
+    height: 79vh;
+  }
+  .panel-body.detail-pesan{
+    border-top: 1px solid #ececec;
+  }
+  .content-filter-search .input-group{
+    margin-bottom: 0;
+  }
+
+}
+@media (max-width:991px){
+  /* .panel-plain .panel-heading{
+  margin-bottom: 0;
+  } */
+  .panel-plain .panel-heading .row > div + div{
+    margin-top: 10px;
+  }
+  .panel-plain.panel-pesan .panel-heading .row > div + div{
+    margin-top: 0;
+  }
+  .ci-right{
+    margin-top: 10px;
+  }
+  .content-tag{
+    margin-top: 10px;
+  }
+  .panel-materi .panel-heading .dropdown{
+    top: -15px;
+  }
+
+}
+@media(max-width:793px){
+  .main-rightbar .panel-separated-heading{
+    height: auto;
+  }
+}

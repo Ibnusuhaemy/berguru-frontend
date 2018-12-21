@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login | Berguru.com</title>
+	<link rel="stylesheet" href="assets/libs/bootstrap.3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/libs/owl-carousel.2.3.4/assets/owl.carousel.css">
+	<link rel="stylesheet" href="assets/libs/owl-carousel.2.3.4/assets/owl.theme.default.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+	
+	<div class="login-layout">
+		<div class="left-side-wrap">
+			<div class="logo-header">
+				<a href="#"><img src="assets/images/logo.png" width="144" height="33" alt=""></a>
+			</div>
+			<div class="login-bg">
+				<img src="assets/images/thumbnails/testimoni.png" alt="" style="width: 90%;">
+			</div>
+			<div class="front-slider">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					     	<p class="quote">
+					     		“Berguru.com sangat membantu saya dalam mengembangkan penelitian studi di Sekolah Dasar, Volunteer Mahasiswa dengan sabar membantu saya dan selalu konsisten!”
+					     	</p>
+					     	<h6 class="author">
+					     		Jean Morgan
+					     	</h6>
+					     	<p class="author-pos">
+					     		Pakar Analis di Network Council
+					     	</p>
+					    </div>
+
+					    <div class="item">
+					      	<p class="quote">
+					     		“Berguru.com sangat membantu saya dalam mengembangkan penelitian studi di Sekolah Dasar, Volunteer Mahasiswa dengan sabar membantu saya dan selalu konsisten!”
+					     	</p>
+					     	<h6 class="author">
+					     		Jean Morgan
+					     	</h6>
+					     	<p class="author-pos">
+					     		Pakar Analis di Network Council
+					     	</p>
+					    </div>
+
+					    <div class="item">
+					      	<p class="quote">
+					     		“Berguru.com sangat membantu saya dalam mengembangkan penelitian studi di Sekolah Dasar, Volunteer Mahasiswa dengan sabar membantu saya dan selalu konsisten!”
+					     	</p>
+					     	<h6 class="author">
+					     		Jean Morgan
+					     	</h6>
+					     	<p class="author-pos">
+					     		Pakar Analis di Network Council
+					     	</p>
+					    </div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					</div>
+				</div>
+		</div>
+		<div class="right-side-wrap">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="have-account pull-right">
+						<span>Belum punya akun?</span>
+						<a href="login.html"><span class="fa fa-user" aria-hidden="true"></span>  Daftar</a>
+					</div>				
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="login-box">
+						<h2>Selamat Datang</h2>
+						<p class="mb-30">Masuk dan mulai terhubung dengan tenaga terbaik</p>
+						<form action="">
+							<div class="form-group">
+							    <label for="email">Email</label>
+							    <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+						  	</div>
+						  	<div class="form-group mb-10">
+							    <label for="password">Password</label>
+							    <input type="password" class="form-control" id="password" placeholder="Masukkan Password">
+						  	</div>
+						  	<div class="form-group mb-30 clearfix">
+						  		<span class="pull-left">
+						  			<input type="checkbox"> Ingat saya
+						  		</span>
+						  		<span class="pull-right">
+						  			<a href=""><img src="assets/images/icons/question.png" alt=""> Forgotten Password</a>
+						  		</span>
+						  	</div>
+				  			<button type="submit" class="form-control btn btn-login">Masuk ke Berguru.com</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="row">
+					<div class="col-md-5">
+						<ul> 
+							<li>
+								<a href=""><i class="fab fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href=""><i class="fab fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href=""><i class="fab fa-google-plus-g"></i></a>
+							</li>
+							<li>
+								<a href=""><i class="fab fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href=""><i class="fas fa-rss"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-7">
+						<p>© 2018 Hak Cipta Dilindungi Undang-Undang</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="assets/libs/jquery.3.3.1/jquery-3.3.1.js"></script>
+	<script src="assets/libs/bootstrap.3.3.7/js/bootstrap.js"></script>
+	<script src="assets/libs/owl-carousel.2.3.4/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $(".owl-carousel").owlCarousel({
+    			navigation : true, // показывать кнопки next и prev 
+ 
+		      slideSpeed : 300,
+		      paginationSpeed : 400,
+		 
+		      items : 1, 
+		      itemsDesktop : false,
+		      itemsDesktopSmall : false,
+		      itemsTablet: false,
+		      itemsMobile : false
+
+    		});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,1726 @@
+/* --- General Styles --- */
+
+/* - Fonts - */
+@font-face {
+  font-family: 'Avenir Next Bold';
+  src: url('../fonts/avenirnextbold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/avenirnextbold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/avenirnextbold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/avenirnextbold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/avenirnextbold.svg#avenirnextbold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Avenir Next Demi Bold';
+  src: url('../fonts/avenirnextdemibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/avenirnextdemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/avenirnextdemibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/avenirnextdemibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/avenirnextdemibold.svg#avenirnextdemibold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Avenir Next Medium';
+  src: url('../fonts/avenirnextmedium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/avenirnextmedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/avenirnextmedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/avenirnextmedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/avenirnextmedium.svg#avenirnextmedium') format('svg'); /* Legacy iOS */
+}
+
+/* Font Smoothing */
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
+
+/* List */
+ul{
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0px;
+    -ms-padding-start: 0px;
+    -o-padding-start: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+/* Paragraph */
+p{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 0;
+    letter-spacing: normal;
+    color: #000;
+}
+
+/* Links */
+a{
+    color: #153b9a;
+}
+a:hover,
+a:focus {
+    color: #153b9a;
+    text-decoration: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+.content-title .title{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 24px;
+    color: #000;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.content-title .title-right{
+    text-align: right;
+}
+.content-title .btn{
+    padding: 11px 33px;
+}
+.content-title .link{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
+.sidebar-title{
+    margin-bottom: 32px;
+}
+.sidebar-title .title{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    width: 75%;
+    margin-right: -5px;
+}
+.sidebar-title .sidebar-filter{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 12px;
+    color: #000;
+    border: none;
+    display: inline-block;
+    width: 25%;
+}
+
+/* Buttons */
+.btn{
+    font-family: "Avenir Next Demi Bold";
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+}
+.btn:hover,
+.btn:focus{
+    outline: none;
+}
+.btn-green{
+    color: #fff;
+    background-color: #8dc74a;
+}
+.btn-green:hover,
+.btn-green:focus{
+    background-color: #76c717;
+    color: #fff;
+}
+.btn-transparent-white{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-transparent-white:hover,
+.btn-transparent-white:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+    color: #fff;
+}
+.btn-transparent-blue{
+    background-color: transparent;
+    border: 1px solid #1548a7;
+    color: #1548a7;
+}
+.btn-transparent-blue:hover,
+.btn-transparent-blue:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+    color: #1548a7;
+}
+
+/* Icons */
+.bgicon{
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+.bgicon-lock{
+    background-image: url(../images/icons/lock.png);
+    width: 12px;
+    height: 15px;
+}
+.bgicon-add-person{
+    background-image: url(../images/icons/add-person.png);
+    width: 14px;
+    height: 15px;
+}
+.bgicon-arrow-down-white{
+    background-image: url(../images/icons/arrow-down-white.png);
+    width: 12px;
+    height: 7px;
+}
+.bgicon-search{
+    background-image: url(../images/icons/search.png);
+    width: 16px;
+    height: 16px;
+}
+.bgicon-point{
+    background-image: url(../images/icons/point.png);
+    width: 12px;
+    height: 12px;
+}
+.bgicon-list{
+    background-image: url(../images/icons/list.png);
+    width: 21px;
+    height: 21px;
+}
+.bgicon-clock{
+    background-image: url(../images/icons/clock.png);
+    width: 12px;
+    height: 13px;
+}
+.bgicon-comment{
+    background-image: url(../images/icons/comment.png);
+    width: 22px;
+    height: 20px;
+}
+.bgicon-map-marker{
+    background-image: url(../images/icons/map-marker.png);
+    width: 8px;
+    height: 12px;
+}
+.bgicon-close{
+    background-image: url(../images/icons/times.png);
+    width: 19px;
+    height: 20px;
+}
+.bgicon-download{
+    background-image: url(../images/icons/cloud.png);
+    width: 12px;
+    height: 11px;
+}
+
+/* Learn Category */
+.bgicon-learn-math{
+    background-image: url(../images/icons/learn/math.png);
+    width: 20px;
+    height: 21px;
+}
+.bgicon-learn-indo{
+    background-image: url(../images/icons/learn/indo.png);
+    width: 18px;
+    height: 21px;
+}
+.bgicon-learn-physics{
+    background-image: url(../images/icons/learn/physics.png);
+    width: 20px;
+    height: 21px;
+}
+.bgicon-learn-history{
+    background-image: url(../images/icons/learn/history.png);
+    width: 20px;
+    height: 21px;
+}
+.bgicon-learn-social{
+    background-image: url(../images/icons/learn/social.png);
+    width: 20px;
+    height: 21px;
+}
+.bgicon-learn-national{
+    background-image: url(../images/icons/learn/national.png);
+    width: 20px;
+    height: 21px;
+}
+.bgicon-learn-sports{
+    background-image: url(../images/icons/learn/sports.png);
+    width: 20px;
+    height: 21px;
+}
+
+/* Category */
+.bgicon-diamond{
+    background-image: url(../images/icons/category/diamond.png);
+    width: 18px;
+    height: 19px;
+}
+.bgicon-puzzle{
+    background-image: url(../images/icons/category/puzzle.png);
+    width: 18px;
+    height: 19px;
+}
+.bgicon-chemistry{
+    background-image: url(../images/icons/category/chemistry.png);
+    width: 12px;
+    height: 19px;
+}
+.bgicon-graduation{
+    background-image: url(../images/icons/category/graduation.png);
+    width: 18px;
+    height: 15px;
+}
+.bgicon-plane{
+    background-image: url(../images/icons/category/plane.png);
+    width: 18px;
+    height: 19px;
+}
+
+/* Social Media */
+.bgicon-facebook{
+    background-image: url(../images/icons/social-facebook.png);
+    width: 12px;
+    height: 12px;
+}
+.bgicon-google-plus{
+    background-image: url(../images/icons/social-google-plus.png);
+    width: 18px;
+    height: 12px;
+}
+.bgicon-instagram{
+    background-image: url(../images/icons/social-instagram.png);
+    width: 12px;
+    height: 12px;
+}
+.bgicon-rss{
+    background-image: url(../images/icons/social-rss.png);
+    width: 11px;
+    height: 11px;
+}
+.bgicon-twitter{
+    background-image: url(../images/icons/social-twitter.png);
+    width: 13px;
+    height: 11px;
+}
+
+
+/* Panel */
+.panel{
+    border: none;
+    box-shadow: none;
+}
+
+/* Tags */
+.tag{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    border-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tag-white{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+.tag-green{
+    background-color: rgba(42, 150, 80, 0.1);
+    color: #2a9650;
+}
+.tag-blue{
+    background-color: #e7ebf4;
+    color: #123899;
+}
+.tag-orange{
+    background-color: rgba(221, 162, 4, 0.1);
+    color: #dda204;
+}
+
+
+/* --- Header --- */
+header{    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-color: #123899;
+}
+
+/* --- Navigation Menu --- */
+.nav-front{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #5571bc;
+}
+.nav-front .navbar-brand{
+    height: auto;
+    padding: 28px 30px 28px 15px;
+}
+.nav-front .navbar-nav > li > a{
+    font-size: 14px;
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding: 34px 30px;
+}
+.nav-front .navbar-nav > li.dropdown > a{
+    padding-top: 34px;
+    padding-bottom: 33px;
+}
+.nav-front .navbar-nav > li > a:hover,
+.nav-front .navbar-nav > li > a:focus,
+.nav-front .navbar-nav > .open > a, 
+.nav-front .navbar-nav > .open > a:hover, 
+.nav-front .navbar-nav > .open > a:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+    transition: all .5s ease-in-out;
+    color: #e7e7e7;
+}
+.nav-front .navbar-nav > .open > a, 
+.nav-front .navbar-nav > .open > a:hover, 
+.nav-front .navbar-nav > .open > a:focus{
+    border-bottom: none;
+}
+.nav-front .navbar-nav > .active > a{
+    color: #fff;
+    border-color: #8dc74a;
+    background-color: transparent;
+} 
+.nav-front .navbar-nav > .active > a:hover, 
+.nav-front .navbar-nav > .active > a:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+    color: #fff;
+    border-color: #8dc74a;
+}
+.nav-front .dropdown-toggle .bgicon{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.nav-front .dropdown-menu{
+    border-radius: 0;
+    background-color: #123899;
+    border: none;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, .175);
+}
+.nav-front .dropdown-menu > li > a{
+    font-size: 14px;
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-front .dropdown-menu > li > a:hover, 
+.nav-front .dropdown-menu > li > a:focus{
+    background-color: rgba(85, 113, 188, 0.95);
+    transition: all .5s ease-in-out;
+}
+.nav-front .navbar-right .bgicon{
+    margin-right: 10px;
+}
+.nav-front .navbar-nav .nav-button{
+    padding: 23px 9px;
+}
+.nav-front .navbar-nav > .nav-button > a{
+    padding: 10px 20px;
+    border-bottom: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.nav-front .navbar-nav > .nav-button > a:hover,
+.nav-front .navbar-nav > .nav-button > a:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+    color: #fff;
+}
+
+
+/* --- Homepage --- */
+.home{
+    background-image: url(../images/background/home.png);
+}
+.pages{
+    background-image: url(../images/background/cta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+.header-content{
+    padding: 80px 0;
+    text-align: center;
+}
+.header-content .title{
+    font-family: "Avenir Next Bold", Fallback, sans-serif;
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.header-content .header-search{
+    margin-bottom: 32px;
+}
+.header-search .search-field{
+    margin-right: 25px;
+}
+.header-search .search-field .input-group-addon{
+    background: #fff;
+    line-height: normal;
+    padding: 20px 8px 20px 24px;
+    border: none;
+}
+.header-search .search-field .input-group-addon:focus{
+    outline: none;
+}
+.header-search .search-field .form-control{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: normal;
+    letter-spacing: 0;
+    width: 360px;
+    height: auto;
+    padding: 21px 16px 21px 8px;
+    border: none;
+    box-shadow: none;
+    border-right: 1px solid #c5c5c5;
+}
+.header-search .search-field .form-control:focus{
+    outline: none;
+    border-color: #fff;
+    box-shadow: none;
+}
+.header-search .search-field .form-control::-moz-placeholder{
+    color: #878787;
+}
+.header-search .search-field .form-control:-moz-placeholder{
+    color: #878787;
+}
+.header-search .search-field .form-control:-ms-input-placeholder{
+    color: #878787;
+}
+.header-search .search-field .form-control:focus:-ms-input-placeholder{
+    color: #878787;
+}
+.header-search .search-field .form-control::-webkit-input-placeholder{
+    color: #878787;
+}
+.header-search .search-field .select-category{
+    padding: 20px 24px;
+}
+.header-search .search-field .select-category select{
+    border: none;
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+.header-search .btn{
+    padding: 20px 30px;
+}
+.header-content .caption{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.header-content .caption a{
+    text-decoration: underline;
+    color: #fff;
+    margin-left: 4px;
+}
+.header-content .caption a:hover,
+.header-content .caption a:focus{
+    color: #f7f7f7;
+}
+
+.header-pages{
+    padding-bottom: 0;
+}
+.header-pages .title{
+    margin-bottom: 5px;
+}
+.header-pages .caption{
+    margin-bottom: 0;
+}
+.header-pages .header-search{
+    margin-bottom: 0;
+    bottom: -30px;
+    position: relative;
+}
+.header-pages .header-search .search-field{
+    margin-right: 0;
+}
+.header-pages .header-search .search-field .form-control{
+    border-radius: 0;
+}
+.header-pages .header-search .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+}
+
+
+/* --- Content --- */
+.content-front{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+.category-list .category-title{
+    margin-bottom: 20px;
+}
+.category-list .category-title p{
+    margin-bottom: 10px;
+}
+.category-list .category-more{
+    text-align: right;
+}
+.category-list .category-more a{
+    text-decoration: underline;
+}
+.learn-list{
+    margin: 0 -5px 38px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ececec;
+}
+.learn-list li{
+    width: calc(100% / 7);
+    margin-right: -5px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.learn-list li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+.learn-list li .panel{
+    padding: 24px 12px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: none;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.learn-list li .panel:hover{
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    border-color: #153b9a;
+}
+.learn-list .bgicon{
+    margin-bottom: 12px;
+    color: #878787;
+    font-size: 18px;
+}
+.learn-list p{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    color: #000;
+}
+.learn-list li .panel:hover .bgicon,
+.learn-list li .panel:hover p{
+    color: #153b9a; 
+}
+
+/* - Post Content - */
+/* Ask */
+.ask-title{
+    margin-bottom: 24px;
+}
+.ask-header{
+    margin-bottom: 32px;
+}
+.ask-header .ask-count{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 16px;
+    padding-top: 6px;
+}
+.ask-header .ask-menu{
+    text-align: right;
+}
+.ask-header .nav-ask{
+    border-bottom: none;
+    display: inline-block;
+}
+.nav-ask > li > a{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 12px;
+    border: 1px solid #c5c5c5;
+    border-right: 0;
+    border-radius: 0;
+    margin-right: 0;
+    padding: 12px 30px;
+    color: #000;
+}
+.nav-ask > li:first-child > a{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.nav-ask > li:last-child > a{
+    border-right: 1px solid #c5c5c5;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-ask > li > a:hover{
+    border-color: #c5c5c5;
+}
+.nav-ask > li.active > a, 
+.nav-ask > li.active > a:hover, 
+.nav-ask > li.active > a:focus{
+    border: 1px solid #153b9a;
+    border-right: 0;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    background-color: #153b9a;
+    color: #fff;
+}
+.nav-ask > li.active:last-child > a, 
+.nav-ask > li.active:last-child > a:hover, 
+.nav-ask > li.active:last-child > a:focus{
+    border-right: 1px solid #c5c5c5;
+}
+
+/* Ask List */
+.ask-list .panel-ask{
+    margin-bottom: 32px;
+}
+.panel-ask{
+    padding: 32px 40px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.panel-ask .panel-ask-account{
+    margin-bottom: 22px;
+}
+.panel-ask-account .ask-photo{
+    width: 48px;
+    height: 48px;
+    display: block;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ededed;
+}
+.panel-ask-account .ask-photo img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+}
+.panel-ask-account .media-heading{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 16px;
+}
+.panel-ask-account .ask-time{
+    font-size: 12px;
+    color: #878787;
+}
+.panel-ask-account .ask-data-list{
+    text-align: right;
+}
+.panel-ask-account .ask-data{
+    width: 20%;
+    display: inline-block;
+    margin-right: -5px;
+    text-align: center;
+}
+.panel-ask-account .ask-data .data-value{
+    font-size: 18px;
+    line-height: 28px;
+}
+.panel-ask-account .ask-data .data-label{
+    font-size: 12px;
+    color: #878787;
+}
+.panel-ask .panel-ask-content{
+    margin-bottom: 18px;
+}
+.panel-ask .panel-ask-content p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.panel-ask-answer .list-commentator li{
+    vertical-align: middle;
+}
+.panel-ask-answer .list-commentator p{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #878787;
+}
+.panel-ask-answer .list-commentator a{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1.7px;
+    color: #123899;
+    line-height: normal;
+    text-align: center;
+}
+.panel-ask-answer .list-commentator .img-circle{
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: #e7ebf4;
+}
+.panel-ask-answer .list-commentator .img-circle img{
+    width: 27px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+}
+.panel-ask-answer .list-commentator .commentator-count a{
+    line-height: 25px;
+}
+.panel-ask-answer .ask-action{
+    text-align: right;
+}
+.panel-ask-answer .ask-action p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #878787;
+    display: inline-block;
+    margin-right: 16px;
+}
+.panel-ask-answer .ask-action .btn{
+    padding: 11px 33px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ask-list .ask-cta{
+    background-image: url(../images/background/cta.png);
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 30px 42px;
+    margin-bottom: 32px;
+}
+.ask-cta .ask-cta-left{
+    display: inline-block;
+    width: 40%;
+    margin-right: -5px;
+    vertical-align: middle;
+}
+.ask-cta .ask-cta-left p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+}
+.ask-cta .ask-cta-right{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+.ask-cta .btn{
+    padding: 11px 33px;
+}
+
+.ask-list .load-more{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.ask-list .load-more .load-line{
+    height: 2px;
+    width: 100%;
+    background-color: #ececec;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+.ask-list .load-more .load-btn{
+    padding-left: 27px;
+    padding-right: 27px;
+    background-color: #f7f7f7;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+}
+.ask-list .load-more .load-btn .btn{
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    padding: 11px 33px;
+}
+.ask-list .load-more .load-btn .btn:hover{
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.25);
+}
+
+.testi-title{
+    margin-bottom: 32px;
+}
+.testi-carousel .panel-testi{
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+}
+.panel-testi .panel-body{
+    padding: 24px 32px;
+}
+.panel-testi .testi-text{
+    line-height: 24px;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+}
+.panel-testi .media{
+    margin-bottom: 4px;
+}
+.panel-testi .testi-photo{
+    width: 51px;
+    height: 51px;
+    overflow: hidden;
+    background-color: #ededed;
+    display: block;
+    position: relative;
+    border-radius: 100%;
+}
+.testi-carousel .testi-photo .media-object{
+    width: 53px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.panel-testi .media-heading{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.panel-testi .testi-job{
+    font-size: 12px;
+    line-height: 24px;
+    color: #878787;
+}
+
+/* - Side Bar - */
+.right-list{
+    position: relative;
+    margin-bottom: 50px;
+}
+.right-list .btn{
+    display: inline-block;
+    width: auto;
+    max-width: 186px;
+    padding: 11px 33px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    top: auto;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.right-list .btn:hover{
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Advertisement Content */
+.adv-content .panel{
+    border: none;
+    box-shadow: none;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+.adv-content .panel-body{
+    padding: 0;
+    position: relative;
+}
+.adv-content .adv-img{
+    width: 100%;
+    height: auto;
+}
+.adv-content .adv-tag{
+    font-size: 10px;
+    letter-spacing: 1.7px;
+    line-height: normal;
+    padding: 6px 16px;
+    position: absolute;
+    top: 8px;
+    right: 18px;
+}
+
+/* Solved Question */
+.solved-question .panel{
+    margin-bottom: 32px;
+}
+.solved-question .panel-body{
+    padding: 24px;
+}
+.solved-question .media-object{
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+    background-color: #e7ebf4;
+    text-align: center;
+    padding: 14px;
+}
+.solved-question .bgicon{
+    display: inline-block;
+    color: #153b9a;
+    font-size: 18px;
+}
+.solved-question .media-heading{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.solved-question .media-caption{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    color: #4a4a4a;
+}
+
+/* Student Point */
+.student-list .panel-body{
+    padding: 24px 24px 36px;
+    position: relative;
+}
+.student-list .student-item{
+    margin-bottom: 24px;
+}
+.student-item .media{
+    display: block;
+    position: relative;
+}
+.student-item .student-photo{
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    border-radius: 100%;
+}
+.student-item .student-photo img{
+    width: 34px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.student-item .media-heading{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+.student-item .student-solution{
+    font-size: 12px;
+    line-height: 14px;
+    color: #878787;
+}
+.student-item .student-point{
+    font-size: 12px;
+    padding: 6px 12px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    line-height: 18px;
+    z-index: 2;
+}
+.student-point .bgicon{
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.student-item .student-msg{
+    font-size: 10px;
+    height: 30px;
+    padding: 7px 13px;
+    letter-spacing: 1.7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    line-height: 18px;
+    display: none;
+    z-index: 4;
+}
+.student-item:hover .media-heading{
+    color: #153b9a;
+}
+.student-item:hover .student-msg{
+    display: block;
+    cursor: pointer;
+}
+
+/* Vacancy */
+.vacancy-list .sidebar-title{
+    background-image: url(../images/background/vacancy.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 18px 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.vacancy-list .sidebar-title .title{
+    color: #fff;
+    margin-right: 0;
+    width: 100%;
+}
+.vacancy-list .panel-body{
+    padding: 24px;
+}
+.vacancy-list .vacancy-item{
+    border-bottom: 1px solid transparent;
+    margin-bottom: 14px;
+    padding-right: 12px;
+    position: relative;
+}
+.vacancy-list .vacancy-item:not(:last-child){
+    border-bottom-color: #ececec;
+}
+.vacancy-item .vacancy-title{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+}
+.vacancy-item .vacancy-title a{
+    color: #000;
+}
+.vacancy-item .vacancy-desc{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    color: #878787;
+    margin-bottom: 16px;
+}
+.vacancy-item .vacancy-desc .bgicon{
+    margin-left: 5px;
+    margin-right: 2.5px;
+}
+.vacancy-item .vacancy-close{
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+}
+.vacancy-list .vacancy-item:hover{
+    cursor: pointer;
+}
+.vacancy-list .vacancy-item:hover .vacancy-title a{
+    color: #153b9a;
+}
+.vacancy-list .vacancy-item:hover .vacancy-close{
+    visibility: visible;
+}
+
+.material-list .panel-body{
+    padding: 24px 24px 36px;
+}
+.material-list .material-item{
+    margin-bottom: 20px;
+}
+.material-item .media-object{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 7px 0;
+    margin-right: 6px;
+    font-size: 18px;
+}
+.material-item .cat-diamond .media-object{
+    background-color: #e7ebf4;
+    color: #1b4aaa;
+}
+.material-item .cat-puzzle .media-object{
+    background-color: rgba(219, 89, 89, 0.1);
+    color: #db5959;
+}
+.material-item .cat-chemistry .media-object{
+    background-color: rgba(42, 150, 80, 0.1);
+    color: #2a9650;
+}
+.material-item .cat-graduation .media-object{
+    background-color: rgba(57, 110, 244, 0.1);
+    color: #396ef4;
+    font-size: 16px;
+}
+.material-item .cat-plane .media-object{
+    background-color: rgba(74, 74, 74, 0.1);
+    color: #4a4a4a;
+}
+.material-item .media-heading{
+    margin-bottom: 0;
+}
+.material-item .media-heading a{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #000;
+}
+.material-item .media-heading a:hover{
+    color: #153b9a;
+}
+.material-item .media-body p{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #878787;
+}
+.material-item .media-body cite{
+    color: #000;
+    font-style: normal;
+}
+.material-item .media-body .bgicon{
+    vertical-align: middle;
+}
+.material-item .media-body .count{
+    margin-left: 14px;
+}
+
+
+/* --- Kategori Mata Pelajaran --- */
+.content-pages{
+    padding-top: 80px;
+}
+
+/* --- Footer --- */
+.content-footer{
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+.content-footer .footer-menu{
+    margin-bottom: 40px;
+}
+.content-footer .footer-img{
+    margin-bottom: 33px;
+}
+.content-footer .footer-title{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: normal;
+}
+.content-footer .footer-menu p{
+    color: #878787;
+    line-height: 24px;
+}
+.footer-menu .footer-list-menu li{
+    margin-bottom: 5px;
+}
+.footer-menu .footer-list-menu li a{
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #878787;
+}
+.footer-menu .footer-list-menu li a:hover{
+    color: #153b9a;
+}
+.content-footer .footer-copyright .list-social a{
+    color: #000;
+    font-size: 12px;
+}
+.content-footer .footer-copyright .list-social a:hover{
+    color: #153b9a;
+}
+.content-footer .footer-copyright p{
+    color: #000;
+    line-height: 24px;
+    font-size: 12px;
+}
+.content-footer .newsletter-content .newsletter-caption{
+    margin-bottom: 32px;
+}
+.content-footer .newsletter-form .form-control{
+    box-shadow: none;
+    padding: 10px 20px;
+    height: auto;
+    border-right: 0;
+}
+.content-footer .newsletter-form .input-group-addon{
+    padding: 0;
+    background-color: #8dc74a;
+}
+.newsletter-form .input-group-addon .btn{
+    border-radius: 0;
+    padding: 10px 18px;
+}
+.footer-copyright .support-by{
+    text-align: right;
+}
+.footer-copyright .support-by p{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-copyright .support-by img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+/* --- Media Queries --- */
+@-ms-viewport{
+    width: device-width;
+}
+
+/* - Mini Desktop - */
+@media all and (max-width: 1199px){
+    /* --- General --- */
+    /* -- Top Menu -- */
+    .nav-front .navbar-header{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .nav-front .navbar-brand{
+        float: none;
+        display: inline-block;
+    }
+    
+    /* --- Homepage --- */
+    /* -- Category List -- */
+    .learn-list li{
+        width: calc(100% / 5);
+    }
+    .learn-list li:last-child{
+        padding-right: 12px;
+        margin-right: 5px;
+    }
+    
+    /* -- Post Content -- */
+    /* - Ask Header - */
+    .ask-header .ask-count{
+        margin-bottom: 10px;
+    }
+    .ask-header .ask-menu{
+        text-align: left;
+    }
+    
+    /* - Ask Answer - */
+    .panel-ask-answer .list-commentator .commentator-caption{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .panel-ask-answer .ask-action p{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .ask-cta .ask-cta-left{
+        width: 50%;
+    }
+    .ask-cta .ask-cta-right{
+        width: 50%;
+    }
+    
+    
+    /* --- Kategori Mapel --- */
+    .content-pages .ask-header .ask-menu{
+        text-align: right;
+    }
+    
+}
+
+@media all and (max-width: 991px){
+    /* --- General --- */
+    /* -- Menu -- */
+    .nav-front .navbar-right{
+        float: none !important;
+    }
+    .nav-front .navbar-nav{
+        text-align: center;
+        float: none;
+        display: block;
+    }
+    .nav-front .navbar-nav > li{
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    /* --- Homepage --- */
+    /* -- Header -- */
+    .header-search .search-field{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .header-search .btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* -- Category List -- */
+    .learn-list li {
+        width: calc(100% / 4);
+    }
+    
+    
+    /* --- Kategori Mata Pelajaran --- */
+    .header-pages .header-search .search-field .form-control{
+        /* width: auto; */
+    }
+    .header-pages .header-search .btn{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .content-pages .ask-header .ask-count,
+    .content-pages .ask-header .ask-menu{
+        text-align: center;
+    }
+    
+    /* --- Footer --- */
+    /* -- Newsletter -- */
+    .content-footer .newsletter-content{
+        margin-top: 32px;
+    }
+    .content-footer .newsletter-form{
+        overflow: hidden;
+    }
+    .content-footer .newsletter-form .input-group-addon{
+        border: none;
+    }
+    .content-footer .newsletter-content .newsletter-caption{
+        margin-bottom: 15px;
+    }
+    .newsletter-form .input-group-addon .btn{
+        border: none;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    
+}
+
+@media all and (max-width: 767px){
+    /* --- General --- */
+    /* -- Menu -- */
+    /* - Animations - */
+    .animated {
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    /* Slide in Left */
+    @-webkit-keyframes slideInLeft {
+        from {
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+            visibility: visible;
+        }
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    @keyframes slideInLeft {
+        from {
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+            visibility: visible;
+        }
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+    }
+    .slideInLeft {
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+    }
+
+    /* Fade Out */
+    @-webkit-keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+    .fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+    }
+
+    /* Slide Out Left */
+    @-webkit-keyframes slideOutLeft {
+        from {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        to {
+            visibility: hidden;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+    @keyframes slideOutLeft {
+        from {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        to {
+            visibility: hidden;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+    .slideOutLeft {
+        -webkit-animation-name: slideOutLeft;
+        animation-name: slideOutLeft;
+    }
+    
+    /* Overlay */
+    .sidemenu-overlay{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        z-index: 2;
+    }
+    
+    .nav-front .navbar-header{
+        text-align: left;
+    }
+    .navbar-default .navbar-toggle{
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+    .nav-front .navbar-collapse{
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        top: 0;
+        right: auto;
+        left: 0;
+        min-width: 240px;
+        z-index: 3;
+        height: 100%;
+    }
+    .nav-front .navbar-nav{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .nav-front .navbar-nav > li{
+        display: block;
+        text-align: left;
+    }
+    .nav-front .navbar-nav > li > a{
+        padding: 10px 15px;
+        color: #000;
+        border-color: rgba(0, 0, 0, 0.125);
+        border-bottom-width: 1px;
+    }
+    .nav-front .navbar-nav > li.dropdown > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-front .navbar-nav .nav-button{
+        padding: 0;
+    }
+    .nav-front .navbar-nav > li > a:hover,
+    .nav-front .navbar-nav > li > a:focus,
+    .nav-front .navbar-nav > .open > a,
+    .nav-front .navbar-nav > .open > a:hover,
+    .nav-front .navbar-nav > .open > a:focus{
+        color: #000;
+    }
+    .nav-front .navbar-nav > .active > a{
+        color: #000;
+        background-color: #f7f7f7;
+    }
+    .nav-front .navbar-nav > .active > a:hover, 
+    .nav-front .navbar-nav > .active > a:focus{
+        color: #000;
+    }
+    .nav-front .navbar-nav > .nav-button > a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-front .navbar-nav > .nav-button > a:hover,
+    .nav-front .navbar-nav > .nav-button > a:focus{
+        color: #000;
+    }
+    
+    
+    /* --- Homepage --- */
+    /* -- Header -- */
+    .header-search .search-field{
+        width: 100%;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-search .search-field .form-control{
+        width: 100%;
+    }
+    
+    /* -- Category Lists -- */
+    .learn-list li{
+        width: 180px;
+        margin-right: -5px;
+    }
+    .category-list .category-more{
+        text-align: left;
+    }
+    .learn-list .learn-load p{
+        font-size: 14px;
+        text-decoration: underline;
+    }
+    
+    /* -- Post Content -- */
+    .content-title .title{
+        margin-bottom: 10px;
+    }
+    .content-title .title-right{
+        text-align: left;
+    }
+    
+    /* - Ask Account - */
+    .panel-ask-account .media{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .panel-ask-account .ask-data-list{
+        text-align: left;
+    }
+    .panel-ask-account .ask-data{
+        text-align: left;
+    }
+    .panel-ask-answer .ask-commentator{
+        margin-bottom: 30px;
+    }
+    .panel-ask-answer .ask-action{
+        text-align: left;
+    }
+    .panel-ask-answer .ask-action .btn{
+        display: block;
+        width: 100%;
+        max-width: 180px;
+    }
+    
+    /* - Testimonial Carousel - */
+    .post-content .testi-carousel{
+        margin-bottom: 30px;
+    }
+    
+    
+    /* --- Kategori Mata Pelajaran --- */
+    .header-content{
+        padding: 40px;
+    }
+    .header-pages .caption{
+        margin-bottom: 30px;
+    }
+    .header-pages .header-search{
+        bottom: auto;
+    }
+    .header-pages .header-search .search-field{
+        margin-right: auto;
+    }
+    .header-pages .header-search .search-field .form-control{
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    .header-pages .header-search .btn{
+        border-radius: 4px;
+    }
+    
+    /* --- Footer --- */
+    .content-footer .footer-address{
+        margin-bottom: 30px;
+    }
+    .footer-menu .footer-list-menu{
+        margin-bottom: 30px;
+    }
+    .content-footer .newsletter-form{
+        width: 100%;
+        max-width: 360px;
+    }
+    .footer-copyright .support-by{
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+}
+
+@media all and (max-width: 479px){
+    /* --- Homepage --- */
+    /* -- Header -- */
+    .header-search .search-field .input-group-addon{
+        padding-left: 16px;
+    }
+    .header-search .search-field .select-category{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    /* -- Post Content -- */
+    .panel-ask{
+        padding: 15px 20px;
+    }
+    .nav-ask > li > a{
+        padding: 10px 14px;
+    }
+    
+    .ask-list .ask-cta{
+        padding: 15px 20px;
+    }
+    .ask-cta .ask-cta-left{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .ask-cta .ask-cta-right{
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .material-item .media-body .count{
+        margin-left: 10px;
+    }
+}
