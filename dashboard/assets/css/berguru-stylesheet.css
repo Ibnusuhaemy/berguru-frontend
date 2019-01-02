@@ -3,6 +3,13 @@ body{
   color: #000;
   font-weight: normal;
 }
+.bg-icon{
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
 .navbar-header .navbar-brand{
   background-color: #123899;
   font-family: 'effra';
