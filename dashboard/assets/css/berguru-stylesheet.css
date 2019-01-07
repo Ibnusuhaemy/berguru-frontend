@@ -1655,7 +1655,9 @@ table.dataTable thead th.sorting_desc:after {
 .cfc-item:hover .fa,
 .cfc-item.active .fa,
 .cfc-item:hover h3,
-.cfc-item.active h3{
+.cfc-item.active h3,
+.cfc-item:hover .bgicon,
+.cfc-item.active .bgicon{
   color: #153b9a;
 }
 .cfc-item:hover .panel,
@@ -1671,7 +1673,8 @@ table.dataTable thead th.sorting_desc:after {
   max-height: 27px;
   overflow: hidden;
 }
-.cfc-item .fa{
+.cfc-item .fa,
+.cfc-item .bgicon{
   font-size: 20px;
   color: #878787;
   margin-bottom: 10px;
