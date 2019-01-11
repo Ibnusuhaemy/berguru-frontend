@@ -23,6 +23,10 @@
 	<link href="assets/css/berguru-stylesheet.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../assets/icon-doc/css/fontello.css">
 
+	<!-- owl carousel css -->
+    <link rel="stylesheet" type="text/css" href="../assets/libs/owl-carousel.2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../assets/libs/owl-carousel.2.3.4/assets/owl.theme.default.css">
+
 </head>
 <body>
 	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -182,7 +186,7 @@
 						<form action="#" class="input-55">
 							<div class="input-group">
 								<span class="input-group-addon"><i class="bgicon icon-search"></i></span>
-								<input type="text" class="form-control" placeholder="Ketik lalu tekan enter untuk mencari materi">
+								<input type="text" class="form-control" placeholder="Ketik lalu tekan enter untuk mencari pertanyaan">
 							</div>
 						</form>
 					</div>
@@ -190,8 +194,8 @@
 			</div>
 		</div>
 		<div class="content-filter-cat scrollablex" data-mcs-axis="x">
-			<div class="cfc-list">
-				<div class="cfc-item active">
+			<div class="cfc-list owl-carousel category-carousel">
+				<div class="cfc-item active item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-lists"></div>
@@ -199,7 +203,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-puzzle"></div>
@@ -207,7 +211,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-note"></div>
@@ -215,7 +219,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-stack"></div>
@@ -223,7 +227,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-book"></div>
@@ -231,7 +235,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-people"></div>
@@ -239,7 +243,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-basketball"></div>
@@ -247,7 +251,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="cfc-item">
+				<div class="cfc-item item">
 					<div class="panel panel-plain">
 						<div class="panel-body">
 							<div class="bgicon icon-material-map"></div>
@@ -572,7 +576,33 @@
 <script src="assets/js/bootstrap-datepicker.js"></script>
 <script src="assets/libs/datatables/datatables.min.js" charset="utf-8"></script>
 <script src="assets/libs/malihu-scroll/jquery.mCustomScrollbar.concat.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../assets/libs/owl-carousel.2.3.4/owl.carousel.js"></script>
 <script src="assets/js/custom.js"></script>
+
+<script type="text/javascript">
+    $('.category-carousel').owlCarousel({
+    // items: 3,
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    navText: ['<span class="bgicon icon-arrow-left"></span>','<span class="bgicon icon-arrow-right"></span>'],
+    responsive:{
+            0:{
+                items:3
+            },
+            630:{
+                items:4
+            },
+            995:{
+                items: 5
+            },
+            1200:{
+                items:7
+            }
+        }
+    });
+</script>
 
 </body>
 </html>

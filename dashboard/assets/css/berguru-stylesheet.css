@@ -1633,7 +1633,7 @@ table.dataTable thead th.sorting_desc:after {
   width: calc(100% + 50px);
 }
 .cfc-list{
-  width: 107%;
+  width: 100%;
   /* height: 150px; */
   padding: 25px;
   overflow: hidden;
@@ -1643,7 +1643,7 @@ table.dataTable thead th.sorting_desc:after {
   text-align: center;
   margin-right: 20px;
   float: left;
-  width: 114px;
+  width: 100%;
   height: 96px;
   margin-bottom: 20px;
 }
@@ -1685,7 +1685,7 @@ table.dataTable thead th.sorting_desc:after {
   border: 1px solid #fff;
 }
 .cfc-item .panel .panel-body{
-  padding: 25px 15px 20px;
+  padding: 20px 15px 20px;
 }
 .ci-footer{
   font-weight: 500;
