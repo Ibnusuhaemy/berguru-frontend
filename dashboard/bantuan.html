@@ -4,15 +4,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Mahasiswa - Karir Tambah - Berguru.com</title>
+	<title>Bantuan - Berguru.com</title>
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
-	<link rel="stylesheet" href="assets/libs/fontawesome-free-5.3.1-web/css/all.min.css">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/datepicker3.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/libs/datatables/datatables.min.css">
-	<link rel="stylesheet" href="assets/libs/malihu-scroll/jquery.mCustomScrollbar.min.css">
 	<link href="assets/css/styles.css" rel="stylesheet">
-	<link href="assets/css/chosen.css" rel="stylesheet">
 
 	<!--Custom Font-->
 	<link href="assets/fonts/font-stylesheet.css" rel="stylesheet">
@@ -22,18 +19,7 @@
 	<![endif]-->
 	<!-- berguru css -->
 	<link href="assets/css/berguru-stylesheet.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../assets/icon-doc/css/fontello.css">
-
-	<style type="text/css">
-		.chosen-container-single .chosen-single {
-			height: 55px;
-			background: white;
-			width: 100%;
-		}
-		.chosen-container-single .chosen-single span{
-			margin-top: 15px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="../assets/icon-doc/css/fontello.css"> 
 
 </head>
 <body>
@@ -54,7 +40,7 @@
 									<li><a href="#">
 										Home
 									</a></li>
-									<li class="active">Karir</li>
+									<li class="active">Bantuan</li>
 								</ol>
 							</div>
 							<ul class="nav navbar-top-links navbar-right">
@@ -132,9 +118,8 @@
 				</div>
 			</div><!-- /.container-fluid -->
 		</nav>
-		<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar scrollable">
+		<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 			<div class="profile-sidebar">
-				<a href="#" class="profile-option"><i class="bgicon icon-settings"></i></a>
 				<div class="profile-userpic">
 					<img src="assets/images/reading.png" class="" alt="Photo">
 				</div>
@@ -142,7 +127,7 @@
 					<div class="profile-usertitle-name">Taufik Ikhsan</div>
 					<div class="profile-usertitle-status">taufikikhsanismail@gmail.com</div>
 				</div>
-				<div class="btn-hakakses"><em class="bgicon icon-user"></em> Mahasiswa</div>
+				<div class="btn-hakakses"><em class="bgicon icon-user"></em> Super Admin</div>
 				<div class="clear"></div>
 			</div>
 			<div class="divider"></div>
@@ -152,11 +137,41 @@
 		</div>
 	</form> -->
 	<ul class="nav menu">
-		<li><a href="mahasiswa-dashboard.html"><em class="bgicon icon-home">&nbsp;</em> Home <span class="badge">42</span></a></li>
-		<li><a href="mahasiswa-pesan.html"><em class="bgicon icon-message">&nbsp;</em> Pesan</a></li>
-		<li><a href="mahasiswa-materi.html"><em class="bgicon icon-material-stack">&nbsp;</em> Materi</a></li>
-		<li class="active"><a href="mahasiswa-karir.html"><em class="bgicon icon-briefcase">&nbsp;</em> Karir</a></li>
-		<li><a href="#"><em class="bgicon icon-turn-off">&nbsp;</em> Log Out</a></li>
+		<li class=""><a href="index.html"><em class="bgicon icon-dashboard">&nbsp;</em> Dashboard</a></li>
+		<li class="parent">
+			<a data-toggle="collapse" href="#sub-item-kelola" class="collapsed">
+				<span class="bgicon icon-calculator">&nbsp;</span> Kelola <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-chevron-up"></em></span>
+			</a>
+			<ul class="children collapse" id="sub-item-kelola">
+				<li><a class="" href="kelola-pengguna.html">
+					Pengguna
+				</a></li>
+				<li><a class="" href="kelola-tenaga-pendidik.html">
+					Tenaga Pendidik
+				</a></li>
+				<li><a class="" href="kelola-kategori-konten.html">
+					Kategori Konten
+				</a></li>
+				<li><a class="" href="kelola-konten-permasalahan.html">
+					Konten Permasalahan
+				</a></li>
+				<li><a class="" href="kelola-komentar.html">
+					Komentar
+				</a></li>
+				<li><a class="" href="kelola-daftar-message.html">
+					Daftar Message
+				</a></li>
+				<li><a class="active" href="kelola-materi.html">
+					Materi
+				</a></li>
+				<li><a class="" href="kelola-pesan-info.html">
+					Pesan Info
+				</a></li>
+			</ul>
+		</li>
+		<li><a href="lowongan-kerja.html"><em class="bgicon icon-briefcase">&nbsp;</em> Lowongan Kerja</a></li>
+		<li class="active"><a href="#"><em class="bg-icon icon-question">&nbsp;</em> Bantuan</a></li>
+		<li><a href="#"><em class="bg-icon icon-turn-off">&nbsp;</em> Log Out</a></li>
 	</ul>
 	<div class="side-credit">
 		<p>&copy; Berguru.com</p>
@@ -169,102 +184,119 @@
 			<li><a href="#">
 				Home
 			</a></li>
-			<li class="active">Karir</li>
+			<li>Kelola Materi</li>
 		</ol>
 	</div><!--/.row-->
 
-	<div class="main-container">
-		<div class="row">
-			<div class="col-sm-8 col-md-9">
-				<div class="panel panel-plain">
-					<div class="panel-nav">
-						<a href="mahasiswa-karir.html" class="panel-link"><i class="bgicon icon-arrow-left"></i> Kembali</a>
+	<div class="panel panel-plain main-container">
+		<div class="panel-heading">
+			<div class="row">
+				<div class="col-md-5">
+					<h1>Bantuan</h1>
+					<p>Halaman Bantuan</p>
+					<br><br>
+					<h1>ILLIYIN STUDIO</h1>
+					<br>
+					<div class="row kontak">
+						<div class="col-md-1">
+							<i class="bgicon icon-map-marker"></i>
+						</div>
+						<div class="col-md-11">
+							<p>Perum Bumi Kepuh Permai Kav B-15,<br>
+							Kelurahan Bandungrejosari, Kecamatan Sukun,<br>
+							Kota Malang 65148</p>
+						</div>
 					</div>
-					<div class="panel-heading">
-						<h1>Buat Lowongan Baru</h1>
-						<p>membuat lowongan baru untuk mendapatkan pekerja</p>
+					<div class="row kontak">
+						<div class="col-md-1">
+							<i class="bgicon icon-phone"></i>
+						</div>
+						<div class="col-md-11">
+							<p>085815263117</p>
+						</div>
 					</div>
-					<div class="panel-body">
-						<form action="#" class="input-55">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label for="">Nama Lowongan</label>
-										<input type="text" class="form-control" placeholder="Contoh: Guru SD ulet, bisa ms. Word nilai plus">
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label for="">Instansi / Perusahaan</label>
-										<input type="text" class="form-control" placeholder="Nama Instansi">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="">Kota / Kabupaten</label>
-										<select class="form-control" data-placeholder="- Pilih Kota / Kabupaten -" id="kota">
-										  <option value=""></option>
-										  <option value="bgicon icon-heart" class="bgicon icon-heart">bgicon icon-heart</option>
-										  <option value="Sumatera Barat">Sumatera Barat</option>
-										  <option value="D.I Aceh">D.I Aceh</option>
-										  <option value="Sumatera Utara">Sumatera Utara</option>
-										  <option value="Jambi">Jambi</option>
-										  <option value="Bangka Belitung">Bangka Belitung</option>
-										  <option value="Bengkulu">Bengkulu</option>
-										  <option value="Lampung">Lampung</option>
-										  <option value="Banten">Banten</option>
-										  <option value="Jawa Barat">Jawa Barat</option>
-										  <option value="Jawa Tengah">Jawa Tengah</option>
-										  <option value="D.I Yogyakarta">D.I Yogyakarta</option>
-										  <option value="Jawa Timur">Jawa Timur</option>
-										  <option value="Bali">Bali</option>
-										  <option value="Kalimantan Barat">Kalimantan Barat</option>
-										</select>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="">Kontak Person</label>
-										<input type="text" class="form-control" placeholder="No. Telepon / HP">
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<label for="alamat">Alamat</label>
-										<textarea class="form-control" id="alamat" placeholder="Jl. Bunga Mawar no 22 RT 03 RW 04 Kelurahan Kedungkandang Kecamatan Sukun, Malang"></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="form-separator"></div>
-							<div class="row">
-								<div class="col-sm-6 col-sm-push-6 col-lg-push-7 col-lg-5">
-									<label for="">&nbsp;</label>
-									<button class="btn btn-55 btn-success btn-block" type="submit">Publish <span class="hidden-sm">Lowongan</span></button>
-								</div>
-
-							</div>
-
-						</form>
+					<div class="row">
+						<div class="col-md-1">
+							<i class="bgicon icon-envelope"></i>
+						</div>
+						<div class="col-md-11">
+							<p>illiyinstudio@gmail.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="mapouter">
+						<div class="gmap_canvas">
+							<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=illiyin%20studio&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+							</iframe>
+							<a href="https://www.crocothemes.net">make wordpress site responsive</a>
+						</div>
+						<style>.mapouter{text-align:right;height:350px;width:550px;max-width: 100%;max-height: 100%;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:550px;max-width: 100%;max-height: 100%;}
+						</style>
 					</div>
 				</div>
 			</div>
-
-			<div class="col-sm-4 col-md-3">
-				<a href="#"><img src="assets/images/iklan.png" alt="Image" class="img-fw"></a>
-			</div>
-
-
 		</div>
-
 	</div>
-
-
-
-
-
-
 </div>	<!--/.main-->
 
+<!-- Modal -->
+<div class="modal fade" id="modal-addmateri" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form class="input-55" action="index.html" method="post">
+				<div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Tambah Materi Baru</h4>
+	        <h5 class="modal-subtitle">Tambahkan materi baru</h5>
+	      </div>
+	      <div class="modal-body">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="form-group">
+								<label for="">Nama Materi</label>
+								<input type="text" class="form-control" placeholder="Masukkan Nama Materi">
+							</div>
+						</div>
+						<div class="col-md-7">
+							<div class="form-group">
+								<label for="thefile">Upload File Materi</label>
+								<input type="file" id="thefile" class="input-file" data-multiple-caption="{count} files selected" multiple>
+								<label for="thefile" class="input-label">
+									<span class="placeholder">Pilih file...</span>
+									<span class="tombol"><i class="fa fa-cloud-upload"></i> Upload file</span>
+								</label>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="form-group">
+								<label for="">Pilih Kategori</label>
+								<select name="kategori" id="" class="form-control">
+									<option value="">Pilih kategori</option>
+									<option value="">Kategori A</option>
+									<option value="">Kategori B</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="">Tags</label>
+								<input type="text" class="form-control" placeholder="Masukkan tag anda">
+								<p class="help-block">contoh: sejarah, gratis, edukasi</p>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<label for="">Deskripsi</label>
+							<textarea name="deskripsi" id="" rows="6" class="form-control" placeholder="Deskripsi"></textarea>
+						</div>
+					</div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="pull-left btn btn-normal btn-plonk-red" data-dismiss="modal">Close</button>
+	        <button type="button" class="pull-right btn btn-normal btn-success">Publish Materi</button>
+	      </div>
+      </form>
+    </div>
+  </div>
+</div>
 
 <script src="assets/js/jquery-1.11.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -274,14 +306,7 @@
 <script src="assets/js/easypiechart-data.js"></script>
 <script src="assets/js/bootstrap-datepicker.js"></script>
 <script src="assets/libs/datatables/datatables.min.js" charset="utf-8"></script>
-<script src="assets/libs/malihu-scroll/jquery.mCustomScrollbar.concat.min.js" charset="utf-8"></script>
 <script src="assets/js/custom.js"></script>
-<script src="assets/js/chosen.jquery.js"></script>
-<script type="text/javascript">
-	$("#kota").chosen(
-	 {no_results_text: "Tidak ditemukan....!"}
-	);
-</script>
 
 </body>
 </html>

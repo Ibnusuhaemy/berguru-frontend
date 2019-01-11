@@ -596,7 +596,17 @@ header{
     margin-right: 0;
     padding-right: 0;
 }
-.learn-list li .panel{
+
+/*finda*/
+.learn-list .panel{
+    padding: 24px 12px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: none;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.learn-list li.panel{
     padding: 24px 12px;
     border-radius: 4px;
     background: #fff;
@@ -1281,6 +1291,47 @@ header{
     vertical-align: middle;
     margin-right: 5px;
 }
+
+/*=====================finda========================*/
+
+.owl-prev span, .owl-next span {
+  color: black;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+  color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  height: 85%;
+}
+
+.owl-prev {
+  left: -16px;
+}
+
+.owl-next {
+  right: -16px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
+
+.owl-prev span,
+.owl-next span {
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #fff;
+}
+
+/*=======================================*/
 
 
 /* --- Media Queries --- */

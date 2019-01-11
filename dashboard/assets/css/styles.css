@@ -766,6 +766,52 @@ a.label:hover, a.label:focus {
   padding: 10px 0 0 0;
   margin: 10px 10px 20px 10px; }
 
+/*=====================finda========================*/
+.kontak{
+    margin-bottom: 15px;
+}
+.owl-prev span, .owl-next span {
+  color: black;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+  color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  height: 85%;
+}
+
+.owl-prev {
+  left: 10px;
+}
+
+.owl-next {
+  right: 10px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
+
+.owl-prev span,
+.owl-next span {
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #fff;
+}
+a.btn:active, button:active {
+    box-shadow: none; 
+    opacity: 1;
+}
+/*===========================================*/
+
 @media (min-width: 768px) {
   .sidebar {
     display: block;

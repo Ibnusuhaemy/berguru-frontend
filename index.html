@@ -22,8 +22,7 @@
         <link rel="stylesheet" type="text/css" href="assets/icon-doc/css/fontello.css">
         
         <!-- Customs -->
-        <link rel="stylesheet" type="text/css" href="assets/css/frontpage.css">
-        
+        <link rel="stylesheet" type="text/css" href="assets/css/frontpage.css"> 
     </head>
     <body>
         
@@ -124,8 +123,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <ul class="list-inline learn-list">
-                                <li>
+                            <div class="owl-carousel category-carousel learn-list">
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -134,8 +133,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -144,8 +143,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -154,8 +153,18 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="item">
+                                    <a href="kategori-mapel.html">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <span class="bgicon icon-material-chemical"></span>
+                                                <p>Kimia</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -164,8 +173,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -174,8 +183,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -184,8 +193,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li>
+                                </div>
+                                <div class="item">
                                     <a href="kategori-mapel.html">
                                         <div class="panel panel-default">
                                             <div class="panel-body">
@@ -194,11 +203,8 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
-                                <li class="learn-load visible-xs">
-                                    <p><a href="#">Muat lebih banyak</a></p>
-                                </li>
-                            </ul>
+                                </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -370,7 +376,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <div class="owl-carousel owl-theme testi-carousel">
+                                    <div class="owl-carousel testi-carousel">
                                         <div class="item">
                                             <div class="panel panel-default panel-testi">
                                                 <div class="panel-body">
@@ -387,6 +393,26 @@
                                                         <div class="media-body">
                                                             <h4 class="media-heading">Ibu Ami,</h4>
                                                             <p class="testi-job">Guru SDN Bareng 1</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="panel panel-default panel-testi">
+                                                <div class="panel-body">
+                                                    <p class="testi-text">
+                                                        Fitur-fitur yang disediakan disini sangat membantu dalam proses pembelajaran bagi murid maupun pendidik.
+                                                    </p>
+                                                    <div class="media">
+                                                        <div class="media-left media-middle">
+                                                            <a href="#" class="testi-photo">
+                                                                <img class="media-object" src="assets/images/thumbnails/Sylvian.png" width="100" height="100" alt="Photo">
+                                                            </a>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Ibu Ana,</h4>
+                                                            <p class="testi-job">Guru SDN Bunulrejo 2</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -678,16 +704,45 @@
         <script type="text/javascript" src="assets/libs/owl-carousel.2.3.4/owl.carousel.js"></script>
         <script type="text/javascript">
             $('.testi-carousel').owlCarousel({
-                loop: true,
-                margin: 40,
-                nav: false,
-                dots: true,
-                responsive:{
+            // items: 3,
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ['<span class="bgicon icon-arrow-left"></span>','<span class="bgicon icon-arrow-right"></span>'],
+            responsive:{
                     0:{
                         items:1
                     },
                     640:{
                         items:2
+                    }
+                }
+            });
+        </script>
+        <script type="text/javascript">
+            $('.category-carousel').owlCarousel({
+            // items: 3,
+            loop: true,
+            margin: 25,
+            nav: true,
+            dots: false,
+            navText: ['<span class="bgicon icon-arrow-left"></span>','<span class="bgicon icon-arrow-right"></span>'],
+            responsive:{
+                    0:{
+                        items:2
+                    },
+                    500:{
+                        items:3
+                    },
+                    630:{
+                        items:4
+                    },
+                    995:{
+                        items: 5
+                    },
+                    1200:{
+                        items:7
                     }
                 }
             });
