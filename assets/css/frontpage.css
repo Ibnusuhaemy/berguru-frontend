@@ -153,6 +153,16 @@ h1, h2, h3, h4, h5, h6{
     background-color: rgba(255, 255, 255, 0.125);
     color: #1548a7;
 }
+.btn-transparent-green{
+    background-color: transparent;
+    border: 1px solid #8dc74a;
+    color: #8dc74a;
+}
+.btn-transparent-green:hover,
+.btn-transparent-green:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+    color: #8dc74a;
+}
 
 /* Icons */
 .bgicon{
@@ -550,6 +560,10 @@ header{
     margin-bottom: 0;
     bottom: -30px;
     position: relative;
+}
+.header-pages .header-search .form-group{
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
 }
 .header-pages .header-search .search-field{
     margin-right: 0;
@@ -1207,6 +1221,116 @@ header{
     padding-top: 80px;
 }
 
+
+/* --- Materi --- */
+.content-materi .materi-dropdown .list-inline{
+    text-align: right;
+    margin-bottom: 0;
+}
+.content-materi .materi-dropdown .dropdown-item{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    border-radius: 0;
+    font-family: "Avenir Next Demi Bold";
+    width: auto;
+    font-size: 12px;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.content-materi .panel-materi{
+    display: block;
+}
+.panel-materi .materi-content .fa-circle{
+    font-size: 5px;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.panel-materi .materi-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px 0;
+}
+.panel-materi .materi-icon.icon-blue{
+    background-color: #e7ebf4;
+    color: #456ecb;
+}
+.panel-materi .materi-icon.icon-red{
+    background-color: #fbeeee;
+    color: #db5959;
+}
+.panel-materi .materi-icon.icon-green{
+    background-color: #e9f4ed;
+    color: #319956;
+}
+.panel-materi .materi-icon.icon-gray{
+    background-color: #ececec;
+    color: #525252;
+}
+.panel-materi .ask-time{
+    margin-bottom: 22px;
+}
+.panel-materi .materi-icon{
+    margin-right: 6px;
+}
+.panel-materi .materi-tag{
+    border-radius: 14.5px;
+    display: inline-block;
+    width: auto;
+    padding: 6px 18px;
+    text-transform: uppercase;
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 12px;
+}
+.panel-materi .materi-tag.materi-blue{
+    background-color: #e7ebf4;
+    color: #456ecb;
+}
+.panel-materi .materi-tag.materi-red{
+    background-color: #fbeeee;
+    color: #db5d5d;
+}
+.panel-materi .materi-tag.materi-green{
+    background-color: #e9f4ed;
+    color: #319956;
+}
+.panel-materi .materi-tag.materi-gray{
+    background-color: #ececec;
+    color: #525252;
+}
+.panel-materi .tag-list{
+    font-size: 12px;
+    line-height: 2;
+    color: #878787;
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+}
+.panel-materi{
+    padding: 17px;
+}
+.panel-materi .panel-ask-account{
+    margin-bottom: 0;
+}
+.panel-materi .tag-list .tag-item:first-child{
+    margin-left: 10px;
+}
+.panel-materi .btn-download{
+    padding: 14px 24px;
+    margin-bottom: 25px;
+}
+.panel-materi .btn-download .bgicon{
+    margin-right: 5px;
+}
+.panel-materi .tag-list .tag-item{
+    color: #123899;
+}
+
+
 /* --- Footer --- */
 .content-footer{
     padding-top: 60px;
@@ -1383,6 +1507,9 @@ header{
     
     
     /* --- Kategori Mata Pelajaran --- */
+    .header-pages .header-search .search-field{
+        margin-bottom: 0;
+    }
     .header-pages .header-search .search-field .form-control{
         /* width: auto; */
     }
@@ -1393,6 +1520,11 @@ header{
     .content-pages .ask-header .ask-count,
     .content-pages .ask-header .ask-menu{
         text-align: center;
+    }
+    
+    /* --- Materi --- */
+    .content-materi .ask-header .ask-count{
+        text-align: left;
     }
     
     /* --- Footer --- */
@@ -1662,6 +1794,7 @@ header{
     }
     .header-pages .header-search .search-field{
         margin-right: auto;
+        margin-bottom: 15px;
     }
     .header-pages .header-search .search-field .form-control{
         border-top-right-radius: 4px;
@@ -1669,6 +1802,26 @@ header{
     }
     .header-pages .header-search .btn{
         border-radius: 4px;
+    }
+    
+    /* --- Materi --- */
+    .content-materi .ask-header .ask-count{
+        text-align: center;
+    }
+    .content-materi .materi-dropdown .list-inline{
+        text-align: center;
+    }
+    .panel-materi .panel-ask-account .media{
+        border-bottom: none;
+        margin-bottom: 30px;
+    }
+    .panel-materi .media .media-left{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .panel-materi .ask-time span{
+        display: block;
+        margin-bottom: 5px;
     }
     
     /* --- Footer --- */
