@@ -1341,6 +1341,25 @@ header{
 }
 
 
+/* --- Karir --- */
+.panel-karir .media .location{
+    font-size: 18px;
+    line-height: 1.56;
+    color: #878787;
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+}
+.panel-karir .address {
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    color: #878787;
+    margin-bottom: 25px;
+}
+.panel-karir .btn-download{
+    padding: 14px 24px;
+}
+
+
 /* --- Footer --- */
 .content-footer{
     padding-top: 60px;
@@ -1873,6 +1892,11 @@ button:focus, button:active {
     .panel-materi .ask-time span{
         display: block;
         margin-bottom: 5px;
+    }
+    
+    .panel-karir .media{
+        border-bottom: none;
+        padding-bottom: 0;
     }
     
     /* --- Footer --- */
