@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="assets/libs/datatables/datatables.min.css">
 	<link rel="stylesheet" href="assets/libs/malihu-scroll/jquery.mCustomScrollbar.min.css">
 	<link href="assets/css/styles.css" rel="stylesheet">
+	<!-- css for choosen select -->
+	<link href="assets/css/chosen.css" rel="stylesheet">
 
 	<!--Custom Font-->
 	<link href="assets/fonts/font-stylesheet.css" rel="stylesheet">
@@ -22,6 +24,14 @@
 	<!-- berguru css -->
 	<link href="assets/css/berguru-stylesheet.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../assets/icon-doc/css/fontello.css">
+
+	<style type="text/css">
+		.chosen-container-single .chosen-single {
+			border: none;
+			box-shadow: none;
+			-webkit-box-shadow: none;
+		}
+	</style>
 
 </head>
 <body>
@@ -104,7 +114,7 @@
 										</div>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="#">
+										<li><a href="mahasiswa-profil.html">
 											<div><em class="bgicon icon-user"></em> Profile</div>
 										</a></li>
 										<li class="divider"></li>
@@ -144,6 +154,7 @@
 		<li><a href="mahasiswa-pesan.html"><em class="bgicon icon-message">&nbsp;</em> Pesan</a></li>
 		<li><a href="mahasiswa-materi.html"><em class="bgicon icon-material-stack">&nbsp;</em> Materi</a></li>
 		<li class="active"><a href="mahasiswa-karir.html"><em class="bgicon icon-briefcase">&nbsp;</em> Karir</a></li>
+		<li><a href="mahasiswa-testimonial.html"><em class="bgicon icon-comment-type">&nbsp;</em> Testimonial</a></li>
 		<li><a href="#"><em class="bgicon icon-turn-off">&nbsp;</em> Log Out</a></li>
 	</ul>
 	<div class="side-credit">
@@ -183,7 +194,24 @@
 							<form action="#" class="input-55">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="bgicon icon-map-marker"></i></span>
-									<input type="text" class="form-control" placeholder="Pilih lokasi">
+									<!-- <input type="text" class="form-control" placeholder="Pilih lokasi"> -->
+									<select class="form-control" data-placeholder="- Pilih Kota / Kabupaten -" id="kota">
+										  <option value=""></option>
+										  <option value="Sumatera Barat">Sumatera Barat</option>
+										  <option value="D.I Aceh">D.I Aceh</option>
+										  <option value="Sumatera Utara">Sumatera Utara</option>
+										  <option value="Jambi">Jambi</option>
+										  <option value="Bangka Belitung">Bangka Belitung</option>
+										  <option value="Bengkulu">Bengkulu</option>
+										  <option value="Lampung">Lampung</option>
+										  <option value="Banten">Banten</option>
+										  <option value="Jawa Barat">Jawa Barat</option>
+										  <option value="Jawa Tengah">Jawa Tengah</option>
+										  <option value="D.I Yogyakarta">D.I Yogyakarta</option>
+										  <option value="Jawa Timur">Jawa Timur</option>
+										  <option value="Bali">Bali</option>
+										  <option value="Kalimantan Barat">Kalimantan Barat</option>
+										</select>
 								</div>
 							</form>
 						</div>
@@ -272,17 +300,8 @@
 			<div class="col-sm-4 col-md-3">
 				<a href="#"><img src="assets/images/iklan.png" alt="Image" class="img-fw"></a>
 			</div>
-
-
 		</div>
-
 	</div>
-
-
-
-
-
-
 </div>	<!--/.main-->
 
 
@@ -296,6 +315,13 @@
 <script src="assets/libs/datatables/datatables.min.js" charset="utf-8"></script>
 <script src="assets/libs/malihu-scroll/jquery.mCustomScrollbar.concat.min.js" charset="utf-8"></script>
 <script src="assets/js/custom.js"></script>
+<!-- js for choosen select -->
+<script src="assets/js/chosen.jquery.js"></script>
+<script type="text/javascript">
+	$("#kota").chosen(
+	 {no_results_text: "Tidak ditemukan..."}
+	);
+</script>
 
 </body>
 </html>

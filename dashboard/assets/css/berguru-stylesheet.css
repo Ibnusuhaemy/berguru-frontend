@@ -863,6 +863,15 @@ table.dataTable thead th.sorting_desc:after {
   background-color: #fff;
   border: 1px solid #d75a56;
 }
+
+/*===================finda=================*/
+.btn-plonk-yellow{
+  color: #fbd32b;
+  background-color: #fff;
+  border: 1px solid #ffce01;
+}
+/*==========================================*/
+
 .btn-status-green.active,
 .btn-status-green:hover,
 .btn-status-green:focus{

@@ -1,0 +1,42 @@
+/*body {
+  background: #2E86DE;
+}
+
+.col-carousel {
+  margin: 70px 0;
+}*/
+
+/* owl nav */
+.owl-prev span, .owl-next span {
+  color: black;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+  color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  height: 85%;
+}
+
+.owl-prev {
+  left: 7px;
+}
+
+.owl-next {
+  right: 7px;
+}
+
+/* removing blue outline from buttons */
+button:focus, button:active {
+   outline: none;
+}
+
+.owl-prev span, .owl-next span {
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+}

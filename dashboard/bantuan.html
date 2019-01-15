@@ -102,7 +102,7 @@
 										</div>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="#">
+										<li><a href="admin-profil-edit.html">
 											<div><em class="bgicon icon-user"></em> Profile</div>
 										</a></li>
 										<li class="divider"></li>
@@ -167,10 +167,13 @@
 				<li><a class="" href="kelola-pesan-info.html">
 					Pesan Info
 				</a></li>
+				<li><a class="" href="kelola-testimonial.html">
+					Testimonial
+				</a></li>
 			</ul>
 		</li>
 		<li><a href="lowongan-kerja.html"><em class="bgicon icon-briefcase">&nbsp;</em> Lowongan Kerja</a></li>
-		<li class="active"><a href="#"><em class="bg-icon icon-question">&nbsp;</em> Bantuan</a></li>
+		<li class="active"><a href="bantuan.html"><em class="bg-icon icon-question">&nbsp;</em> Bantuan</a></li>
 		<li><a href="#"><em class="bg-icon icon-turn-off">&nbsp;</em> Log Out</a></li>
 	</ul>
 	<div class="side-credit">
@@ -184,7 +187,7 @@
 			<li><a href="#">
 				Home
 			</a></li>
-			<li>Kelola Materi</li>
+			<li>Bantuan</li>
 		</ol>
 	</div><!--/.row-->
 
@@ -239,64 +242,6 @@
 		</div>
 	</div>
 </div>	<!--/.main-->
-
-<!-- Modal -->
-<div class="modal fade" id="modal-addmateri" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <form class="input-55" action="index.html" method="post">
-				<div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <h4 class="modal-title" id="myModalLabel">Tambah Materi Baru</h4>
-	        <h5 class="modal-subtitle">Tambahkan materi baru</h5>
-	      </div>
-	      <div class="modal-body">
-					<div class="row">
-						<div class="col-md-5">
-							<div class="form-group">
-								<label for="">Nama Materi</label>
-								<input type="text" class="form-control" placeholder="Masukkan Nama Materi">
-							</div>
-						</div>
-						<div class="col-md-7">
-							<div class="form-group">
-								<label for="thefile">Upload File Materi</label>
-								<input type="file" id="thefile" class="input-file" data-multiple-caption="{count} files selected" multiple>
-								<label for="thefile" class="input-label">
-									<span class="placeholder">Pilih file...</span>
-									<span class="tombol"><i class="fa fa-cloud-upload"></i> Upload file</span>
-								</label>
-							</div>
-						</div>
-						<div class="col-md-5">
-							<div class="form-group">
-								<label for="">Pilih Kategori</label>
-								<select name="kategori" id="" class="form-control">
-									<option value="">Pilih kategori</option>
-									<option value="">Kategori A</option>
-									<option value="">Kategori B</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<label for="">Tags</label>
-								<input type="text" class="form-control" placeholder="Masukkan tag anda">
-								<p class="help-block">contoh: sejarah, gratis, edukasi</p>
-							</div>
-						</div>
-						<div class="col-md-7">
-							<label for="">Deskripsi</label>
-							<textarea name="deskripsi" id="" rows="6" class="form-control" placeholder="Deskripsi"></textarea>
-						</div>
-					</div>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="pull-left btn btn-normal btn-plonk-red" data-dismiss="modal">Close</button>
-	        <button type="button" class="pull-right btn btn-normal btn-success">Publish Materi</button>
-	      </div>
-      </form>
-    </div>
-  </div>
-</div>
 
 <script src="assets/js/jquery-1.11.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

@@ -807,8 +807,16 @@ button:focus, button:active {
   background-color: #fff;
 }
 a.btn:active, button:active {
-    box-shadow: none; 
-    opacity: 1;
+  box-shadow: none; 
+  opacity: 1;
+}
+.chosen-container-single .chosen-single {
+  height: 55px;
+  background: white;
+  width: 100%;
+}
+.chosen-container-single .chosen-single span{
+  margin-top: 15px;
 }
 /*===========================================*/
 
