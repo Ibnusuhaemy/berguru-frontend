@@ -383,6 +383,7 @@ label.input-label.only-btn {
 }
 .input-55 label.input-label.only-btn >span.tombol{
   margin-top: 15px;
+  margin-bottom: 15px;
   position: relative;
   display: inline-block;
   right: 0;
@@ -541,11 +542,11 @@ label.input-label >span.tombol{
   width: 10px;
   height: 10px;
 }
-.td-meta .fa-circle:before{
+/*.td-meta .fa-circle:before{
   position: absolute;
   left: 3px;
   top: 3px;
-}
+}*/
 .td-meta .btn{
   margin-left: 10px;
 }
@@ -869,6 +870,199 @@ table.dataTable thead th.sorting_desc:after {
   color: #fbd32b;
   background-color: #fff;
   border: 1px solid #ffce01;
+}
+
+.karir + .chosen-container-single .chosen-single {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.in + .icon-popup{
+  z-index: 2000;
+}
+
+.db span{
+  font-size: 30px;
+  padding: 12px 10px;
+  max-width: 100%;
+  border-radius: 100px;
+  background: #c2c2c2;
+  margin-top: 26px;
+  display: block;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+}
+
+.dbAdmin{
+  display: block;
+  text-align: center;
+}
+
+.keterangan{
+  margin-top: 26px;
+}
+
+.keterangan .col-xs-4{
+  color: grey;
+  margin-top: -14px;
+}
+
+/*.keterangan .col-xs-4,
+.keterangan .col-xs-7{
+  padding-left: 0;
+}*/
+
+.keterangan .col-xs-7 a{
+  color: #000;
+}
+
+.keterangan .keterangan-nilai{
+  font-size: 24px;
+  display: inline-block;
+}
+
+.keterangan .keterangan-dropdown{
+  display: inline-block;
+  float: none;
+  margin-top: 0;
+}
+
+.keterangan .keterangan-dropdown a{
+  color: #000;
+}
+
+.vl{
+  margin-top: 20px;
+  border-right: 1px solid grey;
+  height: 100px;
+  float: right;
+  display: inline-block;
+}
+
+.mediaUser .user-photo{
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  display: inline-block;
+}
+
+.user h5{
+  color: #929292;
+}
+
+.jarakPesan{
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.jarakPesan p{
+  font-size: 17px;
+  display: inline-block;
+  color: #000;
+}
+
+
+.hrLine {
+    border-bottom: 1px solid rgb(232, 232, 232);
+    margin: 5px 20px;
+}
+
+.laporan{
+  position: relative;
+  float: left;
+}
+
+.laporanUser h5{
+  display: inline-block;
+  color: #000;
+}
+
+.laporanUser p{
+  /*display: inline;*/
+}
+
+.jarakLaporan {
+  margin: -10px 55px 0 55px;
+}
+
+.jarakLaporan .text-red{
+  font-size: 14px;
+}
+
+.jarakLaporan h5{
+  color: #c2c2c2;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.kriteria h5{
+  font-size: 14px;
+  color: #122c70;
+}
+
+.laporanValidasi{
+  padding-left: 0;
+}
+
+
+.lapValidasi p{
+  display: inline-block;
+}
+
+.lapValidasi .col-xs-4 p,
+.lapValidasi .col-md-4 p{
+  margin-top: 8px;
+}
+
+.lapValidasi .saklar{
+  float: right;
+}
+
+.scrollPesan{
+  overflow: auto;
+  max-height: 500px;
+  /*white-space: nowrap;*/
+}
+.scrollLaporan{
+  max-height: 220px;
+  overflow: auto;
+}
+.scrollValidasi{
+  overflow: auto;
+  max-height: 180px;
+  /*white-space: nowrap;*/
+}
+
+.permasalahan p{
+  font-size: 15px;
+}
+
+.permasalahan .ketPermasalahan{
+  margin-bottom: 10px;
+}
+
+.mid{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mid .saklar{
+  position: absolute;
+}
+
+
+@media(max-width: 1200px) and (min-width: 992px){
+  .db span{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 100%;
+    display: block;
+    width: 38px;
+    height: 38px;
+  }
 }
 /*==========================================*/
 
