@@ -10,6 +10,15 @@
 	<link href="assets/css/datepicker3.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/libs/datatables/datatables.min.css">
 	<link href="assets/css/styles.css" rel="stylesheet">
+	<link href="assets/css/chosen.css" rel="stylesheet">
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+
+	<script src="assets/js/chosen.jquery.js"></script>
+	<script type="text/javascript">
+		$("#kota").chosen(
+		 {no_results_text: "Tidak ditemukan....!"}
+		);
+	</script>
 
 	<!--Custom Font-->
 	<link href="assets/fonts/font-stylesheet.css" rel="stylesheet">
@@ -137,7 +146,7 @@
 		</div>
 	</form> -->
 	<ul class="nav menu">
-		<li class=""><a href="index.html"><em class="bgicon icon-dashboard">&nbsp;</em> Dashboard</a></li>
+		<li class=""><a href="admin-dashboard.html"><em class="bgicon icon-dashboard">&nbsp;</em> Dashboard</a></li>
 		<li class="parent">
 			<a data-toggle="collapse" href="#sub-item-kelola" class="collapsed">
 				<span class="bgicon icon-calculator">&nbsp;</span> Kelola <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-chevron-up"></em></span>
@@ -295,32 +304,53 @@
 				</div>
 				<div class="modal-body">
 					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label for="">Nama Lowongan</label>
-								<input type="text" class="form-control" placeholder="Contoh: Guru SD ulet, bisa ms. Word nilai plus">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="">Nama Lowongan</label>
+										<input type="text" class="form-control" placeholder="Contoh: Guru SD ulet, bisa ms. Word nilai plus">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="">Instansi / Perusahaan</label>
+										<input type="text" class="form-control" placeholder="Nama Instansi">
+									</div>
+								</div> 
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="">Kota / Kabupaten</label>
+										<select class="form-control" data-placeholder="- Pilih Kota / Kabupaten -" id="kota">
+										  <option value="">- Pilih Kota / Kabupaten -</option>
+										  <option value="Sumatera Barat">Sumatera Barat</option>
+										  <option value="D.I Aceh">D.I Aceh</option>
+										  <option value="Sumatera Utara">Sumatera Utara</option>
+										  <option value="Jambi">Jambi</option>
+										  <option value="Bangka Belitung">Bangka Belitung</option>
+										  <option value="Bengkulu">Bengkulu</option>
+										  <option value="Lampung">Lampung</option>
+										  <option value="Banten">Banten</option>
+										  <option value="Jawa Barat">Jawa Barat</option>
+										  <option value="Jawa Tengah">Jawa Tengah</option>
+										  <option value="D.I Yogyakarta">D.I Yogyakarta</option>
+										  <option value="Jawa Timur">Jawa Timur</option>
+										  <option value="Bali">Bali</option>
+										  <option value="Kalimantan Barat">Kalimantan Barat</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="">Kontak Person</label>
+										<input type="text" class="form-control" placeholder="No. Telepon / HP">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="alamat">Alamat</label>
+										<textarea class="form-control" id="alamat" placeholder="Jl. Bunga Mawar no 22 RT 03 RW 04 Kelurahan Kedungkandang Kecamatan Sukun, Malang"></textarea>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-								<label for="">Instansi / Perusahaan</label>
-								<input type="text" class="form-control" placeholder="Nama Instansi">
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-								<label for="">Lokasi Lowongan</label>
-								<input type="text" class="form-control" placeholder="Lokasi">
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="form-group">
-								<label for="">Kontak Person</label>
-								<input type="text" class="form-control" placeholder="No. Telepon / HP">
-							</div>
-						</div>
-
-					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="pull-left btn btn-normal btn-plonk-red" data-dismiss="modal">Close</button>
@@ -331,7 +361,7 @@
 	</div>
 </div>
 
-<script src="assets/js/jquery-1.11.1.min.js"></script>
+
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/chart.min.js"></script>
 <script src="assets/js/chart-data.js"></script>
