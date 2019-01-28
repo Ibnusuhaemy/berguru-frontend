@@ -1,0 +1,26 @@
+/* Utilities */
+
+.pb-60 {
+    padding-bottom: 60px !important;
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.no-border-radius {
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+
+    .container-md {
+        max-width: 800px;
+    }
+
+}
+
