@@ -350,6 +350,18 @@ h1, h2, h3, h4, h5, h6{
     color: #dda204;
 }
 
+/* Separates */
+.separator{
+    width: 35px;
+    border-top: 2px solid #eee;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separator-blue{
+    border-color: #123899;
+}
+
 
 /* --- Header --- */
 header{    
@@ -575,6 +587,12 @@ header{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-left: -5px;
+}
+.header-custom-page{
+    margin-bottom: 25px;
+}
+.header-custom-page .title{
+    margin-bottom: 10px;
 }
 
 
