@@ -49,25 +49,25 @@
                             
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse animated">
-                                <ul class="nav navbar-nav ">
-                                    <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                             Kategori <span class="bgicon icon-arrow-down"></span>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#">Matematika</a></li>
-                                            <li><a href="#">Bahasa Indonesia</a></li>
-                                            <li><a href="#">Fisika</a></li>
-                                            <li><a href="#">Sejarah</a></li>
-                                            <li><a href="#">Ilmu Sosial</a></li>
-                                            <li><a href="#">PPKN</a></li>
-                                            <li><a href="#">Olahraga</a></li>
+                                            <li><a href="kategori-mapel.html">Matematika</a></li>
+                                            <li><a href="kategori-mapel.html">Bahasa Indonesia</a></li>
+                                            <li><a href="kategori-mapel.html">Fisika</a></li>
+                                            <li><a href="kategori-mapel.html">Sejarah</a></li>
+                                            <li><a href="kategori-mapel.html">Ilmu Sosial</a></li>
+                                            <li><a href="kategori-mapel.html">PPKN</a></li>
+                                            <li><a href="kategori-mapel.html">Olahraga</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="materi.html">Materi</a></li>
                                     <li><a href="karir.html">Karir</a></li>
-                                    <li><a href="#">Tentang Kami</a></li>
+                                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
                                     <li><a href="#"><span class="bgicon icon-lock"></span> Masuk</a></li>
@@ -295,8 +295,8 @@
                     </div>
 
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
         
         <footer class="content-footer">
             <div class="container">
@@ -371,5 +371,27 @@
         <!-- Javascript -->
         <script type="text/javascript" src="assets/libs/jquery.3.3.1/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="assets/libs/bootstrap.3.3.7/js/bootstrap.js"></script>
+        <script type="text/javascript">
+
+            var overlay = $('.sidemenu-overlay');
+            var sidemenu = $('.navbar-collapse');
+            var toggle = $('.navbar-toggle');
+
+            overlay.on("click", function(){
+                sidemenu.addClass('slideOutLeft');
+                sidemenu.removeClass('slideInLeft');
+                $(this).addClass('fadeOut');
+                $(this).addClass('hide');
+            });
+
+            toggle.on("click", function(){
+                sidemenu.css('display', 'block');
+                sidemenu.addClass('slideInLeft');
+                sidemenu.removeClass('slideOutLeft');
+                overlay.removeClass('hide');
+                overlay.removeClass('fadeOut');
+            });
+
+        </script>
     </body>
 </html>
