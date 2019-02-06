@@ -88,6 +88,125 @@
     margin: -3px;
 }
 
+/*------- About Page -------- */
+
+
+.about-intro {
+    margin-bottom: 50px;
+}
+
+.about-intro-content {
+    line-height: 24px;
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 15px;
+    text-align: center;
+}
+
+.about-intro-content:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+.team-text-box {
+    margin-right: 100px;
+}
+
+.team-text-box__title {
+    margin-bottom: 20px;
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 24px;
+}
+
+.team-text-box__desc {
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.thumbnail-no-border {
+    border: none;
+    background-color: transparent;
+}
+.thumbnail__img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 16px;
+}
+
+.caption__name {
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.caption__job {
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 15px;
+    opacity: 0.5;
+    margin-bottom: 16px;    
+}
+
+.caption__icon--link {
+    color: #000;
+    transition: all .4s ease;
+}
+
+.caption__icon--link:hover {
+    color: #000;
+    opacity: 0.8;
+}
+
+.caption__icon--item {
+    font-size: 11px;
+    margin-right: 6px;
+}
+
+.about-line-horizontal {
+    margin: 100px 0;
+    border: 0;
+    border-top: 2px solid #eee;
+}
+
+.about-form-box {
+    margin-left: 70px;
+}
+
+.about-form-box__title {
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.about-form-box__title--color {
+    font-family: 'Avenir Next Bold';
+    font-size: 24px;
+    color: #123899;
+}
+
+.form-horizontal__title {
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 12px;
+}
+
+.form-horizontal__input {
+    background-color: transparent;
+    height: 55px;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.form-horizontal__input:placeholder-shown {
+    font-family: 'Avenir Next Medium';
+    font-size: 13px;
+    padding: 15px;
+}
+
+.form-horizontal__btn {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px !important;
+}
+
 @media (min-width: 992px) {
 
     .container-md {
@@ -96,6 +215,10 @@
 
     .container-lg {
         max-width: 1000px;
+    }
+
+    .container-lg-2 {
+        max-width: 1050px;
     }
 
 }
