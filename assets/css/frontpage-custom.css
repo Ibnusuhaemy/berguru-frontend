@@ -167,6 +167,10 @@
     border-top: 2px solid #eee;
 }
 
+.about-form {
+    margin-bottom: 50px;
+}
+
 .about-form-box {
     margin-left: 70px;
 }
