@@ -16,6 +16,14 @@
     margin-bottom: 90px !important;
 }
 
+.mb-120 {
+    margin-bottom: 120px !important;
+}
+
+.mt-80 {
+    margin-top: 80px !important;
+}
+
 
 .pd-0 {
     padding: 0 !important;
@@ -39,6 +47,10 @@
 
 .icon--yellow {
     color: #F0B200;
+}
+
+.visible-mobile {
+    display: none;
 }
 
 /* content */
@@ -454,6 +466,175 @@
     font-size: 12px;
     color: #878787;
 }
+
+/* -------------------------*/
+/* --------Point Page------- */
+/* ------------------------- */
+
+.point__img-left {
+    width: 483px;
+    height: 220px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+.point__img-right {
+    width: 483px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.point__img-center {
+    width: 199px;
+    height: 183px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+
+.point__desc-right {
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif; 
+    font-size: 23px;
+    line-height: 34px;   
+}
+
+.media-point__center {
+    margin: 0 200px;
+}
+
+@media (max-width: 992px) {
+    .point__img-left {
+        width: 400px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 50px;
+    }
+
+    .point__img-right {
+        width: 400px;
+        height: auto;
+        object-fit: contain;
+        margin-left: 40px;
+        
+    }
+    
+    .point__img-center {
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 30px;
+    }
+    
+    .point__desc-right {
+        font-family: "Avenir Next Demi Bold", Fallback, sans-serif; 
+        font-size: 18px;
+        line-height: 34px;   
+    }
+    
+    .media-point__center {
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .content-point {
+        padding-top: 80px !important;
+    }
+    .mt-80 {
+        margin-top: 0px !important;
+    }
+    .mb-120 {
+        margin-bottom: 60px !important;
+    }
+    .point__img-left {
+        width: 290px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 10px;
+    }
+
+    .point__img-right {
+        width: 290px;
+        height: auto;
+        object-fit: contain;
+        margin-left: 5px;
+        
+    }
+    
+    .point__img-center {
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 30px;
+    }
+    
+    .point__desc-right {
+        font-family: "Avenir Next Demi Bold", Fallback, sans-serif; 
+        font-size: 16px;
+        line-height: 24px;   
+    }
+    
+    .media-point__center {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .invisible-mobile {
+        display: none;
+    }
+
+    .visible-mobile {
+        display: block;
+    }
+
+    .media-mobile {
+        display: block;
+        text-align: center;
+    }
+    .point__img-left {
+        width: 290px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .mb-120 {
+        margin-bottom: 60px !important;
+    }
+
+    .point__img-right {
+        width: 290px;
+        height: auto;
+        object-fit: contain;
+        margin-left: 5px;
+        
+    }
+    
+    .point__img-center {
+        width: 120px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .point__desc-right {
+        font-family: "Avenir Next Demi Bold", Fallback, sans-serif; 
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .media-point__center {
+        margin: 0 0;
+    }
+}
+
+
+
 
 @media (min-width: 992px) {
 
