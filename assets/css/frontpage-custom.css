@@ -8,6 +8,14 @@
     padding-bottom: 60px !important;
 }
 
+.mb-60 {
+    margin-bottom: 60px !important;
+}
+
+.mb-90 {
+    margin-bottom: 90px !important;
+}
+
 
 .pd-0 {
     padding: 0 !important;
@@ -295,6 +303,156 @@
 
 .syarat-separator {
     margin-bottom: 30px;
+}
+
+/* Iklan Page */
+
+.iklan-advantage {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.iklan-advantage__header .title{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 23px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.iklan-advantage__card-panel {
+    padding: 20px 15px;
+    margin: 0 10px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+    .iklan-advantage__card-panel {
+        margin-bottom: 35px;
+    }
+}
+
+.iklan-advantage__card-panel--icon {
+    font-size: 44px;
+    padding-bottom: 10px;
+}
+
+.iklan-advantage__card-panel--desc {
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.iklan-media {
+    border-radius: 4px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.iklan-media__title {
+    font-family: 'Avenir Next Demi Bold';
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.iklan-media__desc {
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+
+}
+
+.iklan-media__icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.iklan-media__img {
+    width: 100%;
+    height: 445px;
+}
+
+.iklan-media__link {
+}
+
+.iklan-media-left {
+    padding-left: 60px;
+    padding-right: 50px;
+}
+.iklan-media__phone {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.iklan-media-body {
+    width: 60%;
+}
+
+@media (max-width:992px) {
+    .iklan-media-left {
+        display: block;
+        padding: 40px;
+    }
+    .iklan-media-body {
+        width: 100%;
+    }
+
+    .iklan-media__img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ------------- */
+
+.iklan-testimoni__header .title{
+    font-family: "Avenir Next Demi Bold", Fallback, sans-serif;
+    font-size: 23px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.iklan-testimoni__card-panel {
+    padding: 15px;
+    box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+    .iklan-testimoni__card-panel {
+        margin-bottom: 35px;
+    }
+}
+
+.iklan-testimoni__desc {
+    color: #4a4a4a;
+    line-height: 22px;
+}
+
+.iklan-testimoni__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.iklan-testimoni__title {
+    font-family: "Avenir Next Medium", Fallback, sans-serif;
+    font-size: 16px;
+}
+
+.iklan-testimoni__job {
+    font-size: 12px;
+    color: #878787;
 }
 
 @media (min-width: 992px) {
