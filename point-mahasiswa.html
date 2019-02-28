@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Berguru.com | Nilai Tertinggi</title>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/images/title-logo.ico">
+    <link rel="icon" sizes="128x128" href="assets/images/title-logo.ico">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/images/title-logo.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap.3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/frontpage.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-point.css">
+    <link rel="stylesheet" href="assets/icon-doc/css/fontello-codes.css">
+</head>
+
+<body>
+    <div class="sidemenu-overlay hide animated"></div>
+    <!-- header -->
+    <header class="pages">
+        <nav class="navbar navbar-default nav-front">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/images/logo.png" width="144" height="33" alt="" class="img-responsive">
+                            </a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse animated">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Kategori <span class="bgicon icon-arrow-down"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="kategori-mapel.html">Matematika</a></li>
+                                        <li><a href="kategori-mapel.html">Bahasa Indonesia</a></li>
+                                        <li><a href="kategori-mapel.html">Fisika</a></li>
+                                        <li><a href="kategori-mapel.html">Sejarah</a></li>
+                                        <li><a href="kategori-mapel.html">Ilmu Sosial</a></li>
+                                        <li><a href="kategori-mapel.html">PPKN</a></li>
+                                        <li><a href="kategori-mapel.html">Olahraga</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="materi.html">Materi</a></li>
+                                <li class="active"><a href="karir.html">Karir</a></li>
+                                <li><a href="#">Tentang Kami</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#"><span class="bgicon icon-lock"></span> Masuk</a></li>
+                                <li class="nav-button"><a href="#"><span class="bgicon icon-user-add"></span> Daftar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <div class="container nilai">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="header-content header-pages">
+                        <h1 class="title">Mahasiswa dengan Poin Tertinggi</h1>
+                        <p class="caption">Dapatkan poin sebanyaknya dan dapatkan badge untuk akunmu!</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- end header -->
+
+    <!-- start table -->
+    <div class="tabel">
+        <div class="container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#harian" aria-controls="home" role="tab" data-toggle="tab">Harian</a></li>
+                <li role="presentation"><a href="#mingguan" aria-controls="profile" role="tab" data-toggle="tab">Mingguan</a></li>
+                <li role="presentation"><a href="#bulanan" aria-controls="messages" role="tab" data-toggle="tab">Bulanan</a>
+                </li>
+                <!-- <label><input type="search" class="searchkey" placeholder="Cari Mahasiswa" aria-controls="example"></label> -->
+            </ul>
+
+            <div class="table-responsive">
+                <!-- <div class="container"> -->
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="harian">
+                        <!-- <div class="container"> -->
+                        <table class="table table-borderless" id="daily">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Peringkat</th>
+                                    <th scope="col" class="stud">Mahasiswa</th>
+                                    <th scope="col" class="medal hidden-xs">Medals
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-star"></span>
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-trophy"></span>
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-material-diamond"></span>
+                                    </th>
+                                    <th scope="col">Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt="">Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner" class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">2</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Tino</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- </div> -->
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="mingguan">
+                        <table class="table table-borderless" id="weekly">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Peringkat</th>
+                                    <th scope="col" class="stud">Mahasiswa</th>
+                                    <th scope="col" class="medal hidden-xs">Medals
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-star"></span>
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-trophy"></span>
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-material-diamond"></span>
+                                    </th>
+                                    <th scope="col">Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">2</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Tino</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="bulanan">
+                        <table class="table table-borderless" id="monthly">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Peringkat</th>
+                                    <th scope="col" class="stud">Mahasiswa</th>
+                                    <th scope="col" class="medal hidden-xs">Medals
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-star"></span>
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-trophy"></span>
+                                    </th>
+                                    <th scope="col" class="medal">
+                                        <span href="" class="icon-material-diamond"></span>
+                                    </th>
+                                    <th scope="col">Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Tino</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal6.jpg" alt=""> Mark</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">2</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal9.jpg" alt=""> Jacob</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13</th>
+                                    <td class="table-user"><img src="assets/images/icons/gal10.jpg" alt=""> Larry the Bird</td>
+                                    <td class="hidden-xs"></td>
+                                    <td class="star-inner">3</td>
+                                    <td class="trophy-inner">40</td>
+                                    <td class="diamond-inner">12</td>
+                                    <td>5,314</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- end table -->
+
+
+    <!-- footer -->
+    <footer class="content-footer">
+        <div class="container">
+            <div class="row footer-menu">
+                <div class="col-sm-4 col-md-4">
+                    <div class="footer-img">
+                        <img src="assets/images/footer-logo.png" width="144" height="33" alt="Logo" class="img-responsive">
+                    </div>
+                    <div class="footer-address">
+                        <h4 class="footer-title">Kantor Pusat</h4>
+                        <p>
+                            Universitas Negeri Malang
+                            <br> Jl. Semarang 5 Malang 65145
+                            <br> Telp. (0341) 551312
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-2">
+                    <h4 class="footer-title">Tentang Kami</h4>
+                    <ul class="footer-list-menu">
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karier</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Materi dari Berguru.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-2">
+                    <h4 class="footer-title">Bantuan</h4>
+                    <ul class="footer-list-menu">
+                        <li><a href="#">Syarat &amp; Ketentuan</a></li>
+                        <li><a href="#">Cara memperoleh poin</a></li>
+                        <li><a href="#">Iklan</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-4 newsletter-content">
+                    <h4 class="footer-title">Langganan Berita</h4>
+                    <p class="newsletter-caption">
+                        Langganan berita dari <a href="#">Berguru.com</a> dan kita akan memberikan kabar tentang promo
+                    </p>
+                    <div class="input-group newsletter-form">
+                        <input type="text" class="form-control" placeholder="Email anda..." aria-describedby="basic-addon2">
+                        <span class="input-group-addon" id="basic-addon2">
+                            <input type="submit" name="submitrss" class="btn btn-green" value="Langganan">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-copyright">
+                <div class="col-sm-12 col-md-4">
+                    <ul class="list-inline list-social">
+                        <li><a href="#"><span class="bgicon icon-social5,314"></span></a></li>
+                        <li><a href="#"><span class="bgicon icon-social-facebook"></span></a></li>
+                        <li><a href="#"><span class="bgicon icon-social-google-plus"></span></a></li>
+                        <li><a href="#"><span class="bgicon icon-social-instagram"></span></a></li>
+                        <li><a href="#"><span class="bgicon icon-social-rss"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <p>&copy; 2018 Hak Cipta Dilindungi Undang-Undang</p>
+                </div>
+                <div class="col-sm-6 col-md-4 support-by">
+                    <p>Didukung oleh</p>
+                    <img src="assets/images/logo-um.png" width="36" height="36" alt="Logo UM" class="footer-support">
+                    <img src="assets/images/logo-um-flat.png" width="42" height="33" alt="Logo UM" class="footer-support">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="assets/libs/bootstrap.3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="assets/libs/bootstrap.3.3.7/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="assets/libs/owl-carousel.2.3.4/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#daily').DataTable({
+                // "paging": false,
+                "ordering": false,
+                "lengthChange": false,
+                // "info": false
+            });
+            $('#weekly').DataTable({
+                // "paging": false,
+                "ordering": false,
+                "lengthChange": false,
+                // "info": false
+            });
+            $('#monthly').DataTable({
+                // "paging": false,
+                "ordering": false,
+                "lengthChange": false,
+                // "info": false
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        var overlay = $('.sidemenu-overlay');
+        var sidemenu = $('.navbar-collapse');
+        var toggle = $('.navbar-toggle');
+
+        overlay.on("click", function() {
+            sidemenu.addClass('slideOutLeft');
+            sidemenu.removeClass('slideInLeft');
+            $(this).addClass('fadeOut');
+            $(this).addClass('hide');
+        });
+
+        toggle.on("click", function() {
+            sidemenu.css('display', 'block');
+            sidemenu.addClass('slideInLeft');
+            sidemenu.removeClass('slideOutLeft');
+            overlay.removeClass('hide');
+            overlay.removeClass('fadeOut');
+        });
+    </script>
+</body>
+
+</html>
