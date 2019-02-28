@@ -78,8 +78,13 @@
 .testi__avatar {
     border-radius: 100px;
     width: 60px;
-    height: auto;
+    height: 60px;
     margin-bottom: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.testi__avatar img{
+    display: inline-block;
 }
 .testi__title {
     font-size: 16px;
@@ -208,13 +213,22 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1199px){
+    .team-text-box{
+        margin-right: 0;
+    }
+    .team-text-box__title,
+    .team-text-box__desc,
+    .about-team .thumbnail .caption{
+        text-align: center;
+    }
+    .team-text-box__desc{
+        margin-bottom: 20px;
+    }
+}
 
 .about-form-box {
     margin-left: 40px;
-}
-
-@media (max-width:1200px) {
-    
 }
 
 .about-form .image-thumbnail{
@@ -228,7 +242,10 @@
 
 @media (max-width:1199px) {
     .about-form__img {
-        max-width: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
         height: auto;
     }
 }
@@ -279,7 +296,7 @@
 }
 
 .form-horizontal__input {
-    background-color: transparent;
+/*    background-color: transparent;*/
     height: 55px;
     border-radius: 4px;
     padding: 15px;
@@ -665,4 +682,5 @@
     }
 
 }
+
 

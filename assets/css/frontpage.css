@@ -631,7 +631,7 @@ header{
 
 /*finda*/
 .learn-list .panel{
-    padding: 24px 12px;
+    padding: 24px 0;
     border-radius: 4px;
     background: #fff;
     box-shadow: none;
@@ -823,8 +823,10 @@ header{
     bottom: 0;
     display: block;
 }
-.panel-ask-answer .list-commentator .commentator-count a{
+.panel-ask-answer .list-commentator .commentator-count span{
     line-height: 25px;
+    font-size: 12px;
+    text-align: center;
 }
 .panel-ask-answer .ask-action{
     text-align: right;
